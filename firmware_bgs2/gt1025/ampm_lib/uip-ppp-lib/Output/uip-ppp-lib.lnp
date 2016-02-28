@@ -1,0 +1,13 @@
+--cpu Cortex-M3
+".\output\resolv.o"
+".\output\resolver.o"
+".\output\timer.o"
+".\output\uip.o"
+".\output\uip_ppp.o"
+".\output\fcs.o"
+".\output\ppp.o"
+".\output\xtea.o"
+--library_type=microlib --strict --scatter ".\Output\uip-ppp-lib.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\uip-ppp-lib.map" -o .\Output\uip-ppp-lib.axf

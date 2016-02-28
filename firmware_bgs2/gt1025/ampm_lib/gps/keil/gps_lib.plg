@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\keil\gps_lib.uvproj
+Project File Date:  04/10/2014
+
+<h2>Output:</h2>
+Build target 'gps_lib'
+compiling gps.c...
+creating Library...
+".\Output\gps_lib.lib" - 0 Errors, 0 Warning(s).
+Build target 'gps_lib'
+compiling gps.c...
+creating Library...
+".\Output\gps_lib.lib" - 0 Errors, 0 Warning(s).
+Build target 'gps_lib'
+creating Library...
+".\Output\gps_lib.lib" - 0 Errors, 0 Warning(s).
+Build target 'gps_lib'
+creating Library...
+".\Output\gps_lib.lib" - 0 Errors, 0 Warning(s).
+Build target 'gps_lib'
+creating Library...
+".\Output\gps_lib.lib" - 0 Errors, 0 Warning(s).
+Build target 'gps_lib'
+creating Library...
+".\Output\gps_lib.lib" - 0 Errors, 0 Warning(s).
+Build target 'gps_lib'
+creating Library...
+".\Output\gps_lib.lib" - 0 Errors, 0 Warning(s).
+Build target 'gps_lib'
+creating Library...
+".\Output\gps_lib.lib" - 0 Errors, 0 Warning(s).
+Build target 'gps_lib'
+creating Library...
+".\Output\gps_lib.lib" - 0 Errors, 0 Warning(s).
+Build target 'gps_lib'
+creating Library...
+".\Output\gps_lib.lib" - 0 Errors, 0 Warning(s).

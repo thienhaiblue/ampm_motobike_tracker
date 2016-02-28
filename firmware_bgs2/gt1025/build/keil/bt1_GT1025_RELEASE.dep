@@ -1,0 +1,1286 @@
+Dependencies for Project 'bt1', Target 'GT1025_RELEASE': (DO NOT MODIFY !)
+F (..\..\src\main.c)(0x53D37C1A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\main.o --omf_browse .\flash\main.crf --depend .\flash\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\uart1.h)(0x53B4C154)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\uart2.h)(0x53AA50C9)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\uart3.h)(0x53AAB0E7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\i2c.h)(0x5395343E)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\tick.h)(0x53A97770)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x53A041FB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\modem.h)(0x53AC2DA4)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53B4E5AB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53AC2BFA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53CF78C7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x53A86F97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\rtc.h)(0x53B4EA79)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\dbg.h)(0x52D3F8AA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\low_power_mode.h)(0x52F7837E)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\flash_mem\sst25.h)(0x53A10109)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\tracker.h)(0x53AC7D08)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\db\db.h)(0x53AC7CB2)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_time.h)(0x53B4EAD2)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\adc_task.h)(0x53781E23)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\sms_task.h)(0x53ABE2CC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\call_task.h)(0x53379ED5)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\alarm_task.h)(0x53A95F93)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\uart_config_task.h)(0x53A986EC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\app_config_task.h)(0x53D08CC7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\accelerometer_task.h)(0x53953FAE)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\spi.h)(0x539FF534)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\accelerometer\mma7660\mma7660.h)(0x53476DF2)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\accelerometer\xl362\xl362.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\accelerometer\xl362\xl362_io.h)(0x53AC7DD3)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\database_app.h)(0x53A45935)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x53A074C6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x53A9054B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\resolv.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\led.h)(0x53D37F27)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\resolver.h)(0x53909D10)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip_ppp.h)(0x53A06223)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\ppp.h)(0x53AAA66D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\reporter.h)(0x53AAB886)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\tcp_ip_task.h)(0x53AAB887)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\firmware_task.h)(0x53A147BE)
+F (..\..\src\system_config.c)(0x53B4F1FD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\system_config.o --omf_browse .\flash\system_config.crf --depend .\flash\system_config.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\rtc.h)(0x53B4EA79)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\dbg.h)(0x52D3F8AA)
+F (..\..\src\hw_config.c)(0x53D37B82)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\hw_config.o --omf_browse .\flash\hw_config.crf --depend .\flash\hw_config.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\dbg.h)(0x52D3F8AA)
+F (..\..\src\tracker.c)(0x53B4EB0D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\tracker.o --omf_browse .\flash\tracker.crf --depend .\flash\tracker.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\tracker.h)(0x53AC7D08)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\db\db.h)(0x53AC7CB2)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_time.h)(0x53B4EAD2)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\flash_mem\sst25.h)(0x53A10109)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\rtc.h)(0x53B4EA79)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\dbg.h)(0x52D3F8AA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\adc_task.h)(0x53781E23)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\database_app.h)(0x53A45935)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\modem.h)(0x53AC2DA4)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\alarm_task.h)(0x53A95F93)
+F (..\..\src\adc_task.c)(0x53D37F9C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\adc_task.o --omf_browse .\flash\adc_task.crf --depend .\flash\adc_task.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\adc_task.h)(0x53781E23)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\src\sms_task.c)(0x53D090D8)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\sms_task.o --omf_browse .\flash\sms_task.crf --depend .\flash\sms_task.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\modem.h)(0x53AC2DA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53B4E5AB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53AC2BFA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53CF78C7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x53A86F97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x53A041FB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\flash_mem\sst25.h)(0x53A10109)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\adc_task.h)(0x53781E23)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\database_app.h)(0x53A45935)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\db\db.h)(0x53AC7CB2)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_time.h)(0x53B4EAD2)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\encoding.h)(0x53A44BB0)
+F (..\..\src\call_task.c)(0x53CF6C9E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\call_task.o --omf_browse .\flash\call_task.crf --depend .\flash\call_task.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\modem.h)(0x53AC2DA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53B4E5AB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53AC2BFA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53CF78C7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x53A86F97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x53A041FB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\flash_mem\sst25.h)(0x53A10109)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\adc_task.h)(0x53781E23)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\sms_task.h)(0x53ABE2CC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\encoding.h)(0x53A44BB0)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\alarm_task.h)(0x53A95F93)
+F (..\..\src\app_config_task.c)(0x53D20B68)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\app_config_task.o --omf_browse .\flash\app_config_task.crf --depend .\flash\app_config_task.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\app_config_task.h)(0x53D08CC7)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\uart_config_task.h)(0x53A986EC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\flash_mem\sst25.h)(0x53A10109)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\uart3.h)(0x53AAB0E7)
+F (..\..\src\uart_config_task.c)(0x53D213BE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\uart_config_task.o --omf_browse .\flash\uart_config_task.crf --depend .\flash\uart_config_task.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\uart_config_task.h)(0x53A986EC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\app_config_task.h)(0x53D08CC7)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\uart3.h)(0x53AAB0E7)
+F (..\..\src\database_app.c)(0x53A46074)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\database_app.o --omf_browse .\flash\database_app.crf --depend .\flash\database_app.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\db\db.h)(0x53AC7CB2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_time.h)(0x53B4EAD2)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\flash_mem\sst25.h)(0x53A10109)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\rtc.h)(0x53B4EA79)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\dbg.h)(0x52D3F8AA)
+F (..\..\src\alarm_task.c)(0x53ABE2FA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\alarm_task.o --omf_browse .\flash\alarm_task.crf --depend .\flash\alarm_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\modem.h)(0x53AC2DA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_time.h)(0x53B4EAD2)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53B4E5AB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53AC2BFA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53CF78C7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x53A86F97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x53A041FB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\flash_mem\sst25.h)(0x53A10109)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\adc_task.h)(0x53781E23)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\sms_task.h)(0x53ABE2CC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\call_task.h)(0x53379ED5)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\dbg.h)(0x52D3F8AA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\rtc.h)(0x53B4EA79)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\app_config_task.h)(0x53D08CC7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\accelerometer_task.h)(0x53953FAE)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\spi.h)(0x539FF534)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\accelerometer\mma7660\mma7660.h)(0x53476DF2)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\i2c.h)(0x5395343E)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\accelerometer\xl362\xl362.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\accelerometer\xl362\xl362_io.h)(0x53AC7DD3)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\encoding.h)(0x53A44BB0)
+F (..\..\src\led.c)(0x53A85F63)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\led.o --omf_browse .\flash\led.crf --depend .\flash\led.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\led.h)(0x53D37F27)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\src\reporter.c)(0x53CFB6A4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\reporter.o --omf_browse .\flash\reporter.crf --depend .\flash\reporter.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\reporter.h)(0x53AAB886)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x53A074C6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x53A9054B)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\resolver.h)(0x53909D10)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip_ppp.h)(0x53A06223)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\ppp.h)(0x53AAA66D)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\tick.h)(0x53A97770)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\resolv.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\tcp_ip_task.h)(0x53AAB887)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\xtea.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\app_config_task.h)(0x53D08CC7)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\led.h)(0x53D37F27)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\tracker.h)(0x53AC7D08)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\db\db.h)(0x53AC7CB2)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_time.h)(0x53B4EAD2)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\flash_mem\sst25.h)(0x53A10109)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\sms_task.h)(0x53ABE2CC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53AC2BFA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\alarm_task.h)(0x53A95F93)
+F (..\..\src\firmware_task.c)(0x53AC7D44)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\firmware_task.o --omf_browse .\flash\firmware_task.crf --depend .\flash\firmware_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\app_config_task.h)(0x53D08CC7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\uart_config_task.h)(0x53A986EC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x53A074C6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x53A9054B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\resolver.h)(0x53909D10)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip_ppp.h)(0x53A06223)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\ppp.h)(0x53AAA66D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\tick.h)(0x53A97770)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\resolv.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\tcp_ip_task.h)(0x53AAB887)
+F (..\..\src\tcp_ip_task.c)(0x53CF8161)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\tcp_ip_task.o --omf_browse .\flash\tcp_ip_task.crf --depend .\flash\tcp_ip_task.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\modem.h)(0x53AC2DA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\ppp.h)(0x53AAA66D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\resolv.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x53A074C6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x53A9054B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\resolver.h)(0x53909D10)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip_ppp.h)(0x53A06223)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\tick.h)(0x53A97770)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\reporter.h)(0x53AAB886)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\tcp_ip_task.h)(0x53AAB887)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\firmware_task.h)(0x53A147BE)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_time.h)(0x53B4EAD2)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\tracker.h)(0x53AC7D08)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\db\db.h)(0x53AC7CB2)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\flash_mem\sst25.h)(0x53A10109)
+F (..\..\src\accelerometer_task.c)(0x53ABF627)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\accelerometer_task.o --omf_browse .\flash\accelerometer_task.crf --depend .\flash\accelerometer_task.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\accelerometer_task.h)(0x53953FAE)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\spi.h)(0x539FF534)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\accelerometer\mma7660\mma7660.h)(0x53476DF2)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\i2c.h)(0x5395343E)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\accelerometer\xl362\xl362.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\accelerometer\xl362\xl362_io.h)(0x53AC7DD3)
+F (..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_md.s)(0x52D690FC)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_md.lst --xref -o .\flash\startup_stm32f10x_md.o --depend .\flash\startup_stm32f10x_md.d)
+F (..\..\CMSIS\CM3\CoreSupport\core_cm3.c)(0x4FEACCEF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\core_cm3.o --omf_browse .\flash\core_cm3.crf --depend .\flash\core_cm3.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+F (..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c)(0x52F7837D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\system_stm32f10x.o --omf_browse .\flash\system_stm32f10x.crf --depend .\flash\system_stm32f10x.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\ampm_lib\lib\tick.c)(0x53A95EAB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\tick.o --omf_browse .\flash\tick.crf --depend .\flash\tick.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\tick.h)(0x53A97770)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\alarm_task.h)(0x53A95F93)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c)(0x501A155B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\stm32f10x_flash.o --omf_browse .\flash\stm32f10x_flash.crf --depend .\flash\stm32f10x_flash.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c)(0x50F653B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\stm32f10x_iwdg.o --omf_browse .\flash\stm32f10x_iwdg.crf --depend .\flash\stm32f10x_iwdg.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\ampm\stm32\uart1.c)(0x53D21D60)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\uart1.o --omf_browse .\flash\uart1.crf --depend .\flash\uart1.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\uart1.h)(0x53B4C154)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\driver\ampm\stm32\uart2.c)(0x53D21D60)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\uart2.o --omf_browse .\flash\uart2.crf --depend .\flash\uart2.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\uart2.h)(0x53AA50C9)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+F (..\..\driver\ampm\stm32\uart3.c)(0x53D21D27)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\uart3.o --omf_browse .\flash\uart3.crf --depend .\flash\uart3.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\uart3.h)(0x53AAB0E7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+F (..\..\driver\ampm\stm32\i2c.c)(0x53AC80C3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\i2c.o --omf_browse .\flash\i2c.crf --depend .\flash\i2c.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\i2c.h)(0x5395343E)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\driver\ampm\stm32\spi.c)(0x53702C1C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\spi.o --omf_browse .\flash\spi.crf --depend .\flash\spi.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\spi.h)(0x539FF534)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\ampm\stm32\low_power_mode.c)(0x52F7837E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\low_power_mode.o --omf_browse .\flash\low_power_mode.crf --depend .\flash\low_power_mode.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\low_power_mode.h)(0x52F7837E)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\driver\ampm\stm32\rtc.c)(0x53B4EA94)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\rtc.o --omf_browse .\flash\rtc.crf --depend .\flash\rtc.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\rtc.h)(0x53B4EA79)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\dbg.h)(0x52D3F8AA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_time.h)(0x53B4EAD2)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\database_app.h)(0x53A45935)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\db\db.h)(0x53AC7CB2)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\flash_mem\sst25.h)(0x53A10109)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\uart3.h)(0x53AAB0E7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+F (..\..\driver\ampm\stm32\exti.c)(0x53D37DFB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\exti.o --omf_browse .\flash\exti.crf --depend .\flash\exti.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\dbg.h)(0x52D3F8AA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\low_power_mode.h)(0x52F7837E)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\rtc.h)(0x53B4EA79)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\accelerometer_task.h)(0x53953FAE)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\spi.h)(0x539FF534)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\accelerometer\mma7660\mma7660.h)(0x53476DF2)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\i2c.h)(0x5395343E)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\accelerometer\xl362\xl362.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\accelerometer\xl362\xl362_io.h)(0x53AC7DD3)
+F (..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x4FEACCEF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\stm32f10x_gpio.o --omf_browse .\flash\stm32f10x_gpio.crf --depend .\flash\stm32f10x_gpio.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c)(0x4FEACCEF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\stm32f10x_dma.o --omf_browse .\flash\stm32f10x_dma.crf --depend .\flash\stm32f10x_dma.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c)(0x4FEACCEF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\stm32f10x_dac.o --omf_browse .\flash\stm32f10x_dac.crf --depend .\flash\stm32f10x_dac.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c)(0x4FEACCEF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\stm32f10x_adc.o --omf_browse .\flash\stm32f10x_adc.crf --depend .\flash\stm32f10x_adc.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x4FEACCEF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\stm32f10x_rcc.o --omf_browse .\flash\stm32f10x_rcc.crf --depend .\flash\stm32f10x_rcc.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\ampm_lib\uip\resolver.c)(0x53A97789)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\resolver.o --omf_browse .\flash\resolver.crf --depend .\flash\resolver.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\resolver.h)(0x53909D10)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip_ppp.h)(0x53A06223)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\ppp.h)(0x53AAA66D)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\tick.h)(0x53A97770)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x53A074C6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x53A9054B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\resolv.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+F (..\..\ampm_lib\lib\keil\Output\ampm_lib.lib)(0x53A975B2)()
+F (..\..\ampm_lib\uip-ppp-lib\Output\uip-ppp-lib.lib)(0x53A97978)()
+F (..\..\ampm_lib\uip\resolv.c)(0x51DFB828)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\resolv.o --omf_browse .\flash\resolv.crf --depend .\flash\resolv.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\resolv.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x53A074C6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x53A9054B)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+F (..\..\ampm_lib\uip\timer.c)(0x536D1B6E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\timer.o --omf_browse .\flash\timer.crf --depend .\flash\timer.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\tick.h)(0x53A97770)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\ampm_lib\uip\uip.c)(0x53AAA6D9)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\uip.o --omf_browse .\flash\uip.crf --depend .\flash\uip.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x53A074C6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x53A9054B)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip_arch.h)(0x4F98C5E6)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+F (..\..\ampm_lib\uip\uip_ppp.c)(0x53B4DDA6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\uip_ppp.o --omf_browse .\flash\uip_ppp.crf --depend .\flash\uip_ppp.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip_ppp.h)(0x53A06223)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\ppp.h)(0x53AAA66D)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\tick.h)(0x53A97770)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x53A074C6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x53A9054B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\ampm_lib\PPP\fcs.c)(0x4FA12F59)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\fcs.o --omf_browse .\flash\fcs.crf --depend .\flash\fcs.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+F (..\..\ampm_lib\PPP\ppp.c)(0x53B4DD68)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\ppp.o --omf_browse .\flash\ppp.crf --depend .\flash\ppp.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\ppp.h)(0x53AAA66D)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip_ppp.h)(0x53A06223)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\tick.h)(0x53A97770)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x53A074C6)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x53A9054B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\ampm_lib\PPP\xtea.c)(0x4FA12F59)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\xtea.o --omf_browse .\flash\xtea.crf --depend .\flash\xtea.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+F (..\..\ampm_lib\lib\m_time.c)(0x52F25ACB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\m_time.o --omf_browse .\flash\m_time.crf --depend .\flash\m_time.d)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+F (..\..\ampm_lib\lib\sys_time.c)(0x53B4EAD3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\sys_time.o --omf_browse .\flash\sys_time.crf --depend .\flash\sys_time.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_time.h)(0x53B4EAD2)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\m_time.h)(0x52F25ACB)
+F (..\..\ampm_lib\gsm\gsm_hwr.c)(0x53D38062)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\gsm_hwr.o --omf_browse .\flash\gsm_hwr.crf --depend .\flash\gsm_hwr.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\uart1.h)(0x53B4C154)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\led.h)(0x53D37F27)
+F (..\..\ampm_lib\gsm\at_cmd_call_parser.c)(0x53CF78A4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_cmd_call_parser.o --omf_browse .\flash\at_cmd_call_parser.crf --depend .\flash\at_cmd_call_parser.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53B4E5AB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53AC2BFA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53CF78C7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\modem.h)(0x53AC2DA4)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x53A86F97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x53A041FB)
+F (..\..\ampm_lib\gsm\at_cmd_common_parser.c)(0x53CF9BC2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_cmd_common_parser.o --omf_browse .\flash\at_cmd_common_parser.crf --depend .\flash\at_cmd_common_parser.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53B4E5AB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53AC2BFA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53CF78C7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\modem.h)(0x53AC2DA4)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x53A86F97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x53A041FB)
+F (..\..\ampm_lib\gsm\at_cmd_sms_parser.c)(0x53B4DA61)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_cmd_sms_parser.o --omf_browse .\flash\at_cmd_sms_parser.crf --depend .\flash\at_cmd_sms_parser.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\modem.h)(0x53AC2DA4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53B4E5AB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53AC2BFA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53CF78C7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x53A86F97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x53A041FB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\sms\pdu.h)(0x53736F1B)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+F (..\..\ampm_lib\gsm\at_command_parser.c)(0x53B4DB40)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_command_parser.o --omf_browse .\flash\at_command_parser.crf --depend .\flash\at_command_parser.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53B4E5AB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53AC2BFA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53CF78C7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\modem.h)(0x53AC2DA4)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+F (..\..\ampm_lib\gsm\at_gsm_task.c)(0x53D0DE2C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_gsm_task.o --omf_browse .\flash\at_gsm_task.crf --depend .\flash\at_gsm_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\modem.h)(0x53AC2DA4)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_time.h)(0x53B4EAD2)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53B4E5AB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53AC2BFA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53CF78C7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x53A041FB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x53A86F97)
+F (..\..\ampm_lib\gsm\at_send_cmd_task.c)(0x53AC7F2D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_send_cmd_task.o --omf_browse .\flash\at_send_cmd_task.crf --depend .\flash\at_send_cmd_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\modem.h)(0x53AC2DA4)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53B4E5AB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53AC2BFA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53CF78C7)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x53A041FB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x53A86F97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+F (..\..\ampm_lib\gsm\modem.c)(0x53B4383F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\modem.o --omf_browse .\flash\modem.crf --depend .\flash\modem.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\modem.h)(0x53AC2DA4)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\ampm_lib\gsm\sms\pdu.c)(0x5373735D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\pdu.o --omf_browse .\flash\pdu.crf --depend .\flash\pdu.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gsm\sms\pdu.h)(0x53736F1B)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+F (..\..\ampm_lib\gsm\keil\Flash\ampm_gsm.lib)(0x53A99BE8)()
+F (..\..\ampm_lib\common\comm.c)(0x53AC7E1D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\comm.o --omf_browse .\flash\comm.crf --depend .\flash\comm.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\common\comm.h)(0x53AC7DEA)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\ampm_lib\gps\keil\Output\gps_lib.lib)(0x53461D14)()
+F (..\..\ampm_lib\gps\gps.c)(0x53AC8157)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\gps.o --omf_browse .\flash\gps.crf --depend .\flash\gps.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\ampm_lib\db\db.c)(0x5370429C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\db.o --omf_browse .\flash\db.crf --depend .\flash\db.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\db\db.h)(0x53AC7CB2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_time.h)(0x53B4EAD2)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\gps\gps.h)(0x53A98E38)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\flash_mem\sst25.h)(0x53A10109)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\ampm_lib\flash_mem\sst25.c)(0x53A966C3)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\sst25.o --omf_browse .\flash\sst25.crf --depend .\flash\sst25.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\spi.h)(0x539FF534)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\flash_mem\sst25.h)(0x53A10109)
+F (..\..\ampm_lib\accelerometer\mma7660\mma7660.c)(0x53ABF5DD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\mma7660.o --omf_browse .\flash\mma7660.crf --depend .\flash\mma7660.d)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\accelerometer\mma7660\mma7660.h)(0x53476DF2)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\i2c.h)(0x5395343E)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x53B3EA97)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x52F7837D)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\hw_config.h)(0x53D3802B)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\system_config.h)(0x53B4F145)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\inc\dbg.h)(0x52D3F8AA)
+I (D:\AMPM\SVN\GT502W\trunk\firmware\firmware_bgs2\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\..\note.txt)(0x53A97FFE)()
+F (.\output\fw_version.txt)(0x539EB1EC)()

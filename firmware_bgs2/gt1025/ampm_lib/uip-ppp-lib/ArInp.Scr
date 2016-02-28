@@ -1,0 +1,8 @@
+--create .\Output\uip-ppp-lib.lib
+.\output\resolv.o
+.\output\timer.o
+.\output\uip.o
+.\output\uip_ppp.o
+.\output\fcs.o
+.\output\ppp.o
+.\output\xtea.o

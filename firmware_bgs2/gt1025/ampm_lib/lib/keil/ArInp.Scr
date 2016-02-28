@@ -1,0 +1,12 @@
+--create .\Output\ampm_lib.lib
+.\output\data_cmp.o
+.\output\fcs.o
+.\output\list.o
+.\output\m_time.o
+.\output\packet_queue.o
+.\output\protocol.o
+.\output\ringbuf.o
+.\output\sparser.o
+.\output\sys_time.o
+.\output\sys_tick.o
+.\output\encoding.o

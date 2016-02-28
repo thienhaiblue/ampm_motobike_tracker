@@ -1,0 +1,1 @@
+D:\AMBO\SVN\Motor_Tracking_Configuration\trunk\MotorTrackerConfiguration\bin\Release\MotorTrackerConfiguration.exe.config

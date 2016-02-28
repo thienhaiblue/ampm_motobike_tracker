@@ -1,0 +1,12 @@
+Dependencies for Project 'gps_lib', Target 'gps_lib': (DO NOT MODIFY !)
+F (..\gps.c)(0x53461624)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\output\gps.o --omf_browse .\output\gps.crf --depend .\output\gps.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)

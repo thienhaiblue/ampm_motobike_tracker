@@ -1,0 +1,13 @@
+.\output\sys_time.o: ..\sys_time.c
+.\output\sys_time.o: ..\sys_time.h
+.\output\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\time.h
+.\output\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\sys_time.o: ..\..\..\ampm_lib\gps/gps.h
+.\output\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\output\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\output\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\output\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\limits.h
+.\output\sys_time.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\output\sys_time.o: ..\m_time.h

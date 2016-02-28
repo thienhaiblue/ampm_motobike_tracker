@@ -1,0 +1,6199 @@
+
+
+at_send: AT 
+at_recv: AT OK
+
+at_recv: AT OK
+
+at_recv: ATI Cinterion
+BGS2-W
+REVISION 01.301
+
+OK
+
+at_recv: AT+CGSN 351535053365797
+
+OK
+
+at_recv: AT\Q3 OK
+
+at_recv: AT+CMGF=1 OK
+
+at_recv: AT^SCFG="URC/Datamode/Ringline","on" ^SCFG: "URC/Datamode/Ringline","on"
+
+OK
+
+at_recv: AT+CNMI=3,1,0,0,1 OK
+
+at_recv: AT+CLIP=1 OK
+
+at_recv: AT+CFUN=9 OK
+
+at_recv: AT^SIND= nitz,1 ^SIND: nitz,1,"",+00
+
+OK
+
+at_send: AT+COPS=0,2 
+at_recv: AT+COPS=0,2 OK
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0 OK
+
+at_send: AT+CGDCONT=1,"IP","" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1#
+
+
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.122.130.236
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+DATA_SVR: Started, Server 211.21.204.19:4050
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: timedout|closed|aborted 0
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=1 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=1 OK
+AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_send: " AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: " > ID:BGS2_GT1010,Ver:2.925
++CMGS: 23
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+AMPM_LIB:#CALL# INCOMING_CALL
+
+AMPM_LIB:#CALL# MISS_CALL
+
+AMPM_LIB:#CALL# END_CALL_PHASE
+
+AMPM_LIB:#CALL# CALL_IDLE
+
+
+at_send: ATO
+
+
+at_recv: 
+
+at_recv: ATO CONNECT
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: 
+
+at_send: ATH 
+at_recv: 
+
+at_send: AT+CGACT=0 
+at_recv: 
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: 
+
+at_send: ATH 
+at_recv: 
+
+at_send: AT+CGACT=0 
+at_recv: 
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: 
+
+at_send: ATH 
+at_recv: 
+
+at_send: AT+CGACT=0 
+at_recv: 
+
+at_send: AT 
+at_recv: AT OK
+
+at_recv: AT OK
+
+at_recv: ATI Cinterion
+BGS2-W
+REVISION 01.301
+
+OK
+
+at_recv: AT+CGSN 351535053365797
+
+OK
+
+at_recv: AT\Q3 OK
+
+at_recv: AT+CMGF=1 OK
+
+at_recv: AT^SCFG="URC/Datamode/Ringline","on" ^SCFG: "URC/Datamode/Ringline","on"
+
+OK
+
+at_recv: AT+CNMI=3,1,0,0,1 OK
+
+at_recv: AT+CLIP=1 OK
+
+at_recv: AT+CFUN=9 OK
+
+at_recv: AT^SIND= nitz,1 ^SIND: nitz,1,"14/07/23,11:45:25",+28,0
+
+OK
+
+at_send: AT+COPS=0,2 
+at_recv: AT+COPS=0,2 OK
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0 OK
+
+at_send: AT+CGDCONT=1,"IP","u" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1#
+
+
+at_recv: ATDT*99***1#
+
+CONNECT
+~ÿ}#À!}!}#} }9}"}&} }*} } }'}"}(}"}%}&I@W}#}%Â#}%}$!~
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=1 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=1 OK
+AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_send: " AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: " > ID:BGS2_GT1010,Ver:2.925
++CMGS: 24
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+AMPM_LIB:#CALL# INCOMING_CALL
+
+AMPM_LIB:#CALL# MISS_CALL
+
+AMPM_LIB:#CALL# END_CALL_PHASE
+
+AMPM_LIB:#CALL# CALL_IDLE
+
+
+at_send: ATO
+
+
+at_recv: 
+
+at_recv: 
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+NO CARRIER
+
+
+at_send: AT+CGACT=0
+
+
+at_recv: AT+CGACT=0 OK
+
+at_send: AT+CGDCONT=1,"IP","jH" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1#
+
+
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.123.49.30
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.19:4050
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: timedout|closed|aborted 0
+
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=1 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=1 OK
+AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_send: " AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: " > ID:BGS2_GT1010,Ver:2.925
++CMGS: 25
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+AMPM_LIB:#CALL# INCOMING_CALL
+
+AMPM_LIB:#CALL# MISS_CALL
+
+AMPM_LIB:#CALL# END_CALL_PHASE
+
+AMPM_LIB:#CALL# CALL_IDLE
+
+
+at_send: ATO
+
+
+at_recv: ATO CONNECT
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:189 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:189 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:189 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:189 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:189 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:189 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=1 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=1 OK
+AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_send: " AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: " > ID:BGS2_GT1010,Ver:2.925
++CMGS: 26
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: ATO
+
+
+at_recv: ATO CONNECT
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+
+at_recv: 
+OK
+AMPM_LIB:#CALL# INCOMING_CALL
+
+AMPM_LIB:#CALL# HANG_UP_CALL
+
+
+at_send: ATH AMPM_LIB:#CALL# WAIT_HANG_UP_CALL
+
+
+at_recv: ATH
+
+OK
+AMPM_LIB:#CALL# ENSURE_HANG_UP_CALL
+
+AMPM_LIB:#CALL# END_CALL
+
+AMPM_LIB:#CALL# END_CALL_PHASE
+
+AMPM_LIB:#CALL# CALL_IDLE
+
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: 
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=58 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=147 > 07914809000020F311000A9190877729220008B08600561ECB00200054007200ED0020004800691EC7006E002000541EA100690021000A0068007400740070003A002F002F006D006100700073002E0067006F006F0067006C0065002E0063006F006D002F006D006100700073003F0071003D00310030002E003800300030003000320038002C003100300036002E003600350032003000360031
++CMGS: 27
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0 OK
+
+at_send: AT+CGDCONT=1,"IP","" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1#
+
+
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.116.104.188
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:38 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=448 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=151 > 07914809000020F311000A9190877729220008B08A003100330032002D0031003300370020004E0067007500791EC5006E0020004D0069006E006800200048006F00E0006E0067002C00200070006801B01EDD006E0067002000310032002C0020005400E2006E0020004200EC006E0068002C002000481ED300200043006800ED0020004D0069006E0068002C0020005600691EC700740020004E0061006D
++CMGS: 28
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: ATO
+
+
+at_recv: ATO CONNECT
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+
+at_recv: 
+OK
+AMPM_LIB:#CALL# INCOMING_CALL
+
+AMPM_LIB:#CALL# HANG_UP_CALL
+
+
+at_send: ATH AMPM_LIB:#CALL# WAIT_HANG_UP_CALL
+
+
+at_recv: ATH
+
+OK
+AMPM_LIB:#CALL# ENSURE_HANG_UP_CALL
+
+AMPM_LIB:#CALL# END_CALL
+
+AMPM_LIB:#CALL# END_CALL_PHASE
+
+AMPM_LIB:#CALL# CALL_IDLE
+
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: 
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=123 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=147 > 07914809000020F311000A9190877729220008B08600561ECB00200054007200ED0020004800691EC7006E002000541EA100690021000A0068007400740070003A002F002F006D006100700073002E0067006F006F0067006C0065002E0063006F006D002F006D006100700073003F0071003D00310030002E003800300030003000320038002C003100300036002E003600350032003000360031
++CMGS: 29
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0 OK
+
+at_send: AT+CGDCONT=1,"IP","" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1#
+
+
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: FCS fails, discard
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Event TO+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.116.31.140
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:38 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=183 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=151 > 07914809000020F311000A9190877729220008B08A003100330032002D0031003300370020004E0067007500791EC5006E0020004D0069006E006800200048006F00E0006E0067002C00200070006801B01EDD006E0067002000310032002C0020005400E2006E0020004200EC006E0068002C002000481ED300200043006800ED0020004D0069006E0068002C0020005600691EC700740020004E0061006D
++CMGS: 30
+
+OK
+
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: ATO
+
+
+at_recv: ATO CONNECT
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+
+at_recv: 
+OK
+AMPM_LIB:#CALL# INCOMING_CALL
+
+AMPM_LIB:#CALL# MISS_CALL
+
+AMPM_LIB:#CALL# END_CALL_PHASE
+
+AMPM_LIB:#CALL# CALL_IDLE
+
+
+at_send: ATO
+
+
+at_recv: 
+
+at_recv: 
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0
+
+OK
+
+at_send: AT+CGDCONT=1,"IP","ó€pG€óˆpGïó€pG€óˆpG@ºpGÀºpGH€GH"
+
+
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1# 
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: FCS fails, discard
+
+PPP: Event TO+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Event TO+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Event TO+
+
+PPP: Send LCP CONFIG_REQ
+
+
+at_recv: 
+OK
+AMPM_LIB:#CALL# INCOMING_CALL
+
+AMPM_LIB:#CALL# HANG_UP_CALL
+
+
+at_send: ATH AMPM_LIB:#CALL# WAIT_HANG_UP_CALL
+
+
+at_recv: ATH OK
+AMPM_LIB:#CALL# ENSURE_HANG_UP_CALL
+
+AMPM_LIB:#CALL# END_CALL
+
+AMPM_LIB:#CALL# END_CALL_PHASE
+
+AMPM_LIB:#CALL# CALL_IDLE
+
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: 
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=366 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=147 > 07914809000020F311000A9190877729220008B08600561ECB00200054007200ED0020004800691EC7006E002000541EA100690021000A0068007400740070003A002F002F006D006100700073002E0067006F006F0067006C0065002E0063006F006D002F006D006100700073003F0071003D00310030002E003800300030003000320038002C003100300036002E003600350032003000360031
++CMGS: 31
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0 OK
+
+at_send: AT+CGDCONT=1,"IP","`F" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1#
+
+
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.120.107.56
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:190 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:38 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=416 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=151 > 07914809000020F311000A9190877729220008B08A003100330032002D0031003300370020004E0067007500791EC5006E0020004D0069006E006800200048006F00E0006E0067002C00200070006801B01EDD006E0067002000310032002C0020005400E2006E0020004200EC006E0068002C002000481ED300200043006800ED0020004D0069006E0068002C0020005600691EC700740020004E0061006D
++CMGS: 32
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: ATO
+
+
+at_recv: ATO CONNECT
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+
+at_recv: ~ÿ!E(WŒ@v„ vE<®
+xk8ÃP
+ePµq¦À~~ÿ!E(W@v„ŸvE<®
+xk8ÃP
+ePµqõ÷~
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: AT OK
+
+at_send: AT 
+at_recv: AT OK
+
+at_recv: AT OK
+
+at_recv: ATI Cinterion
+BGS2-W
+REVISION 01.301
+
+OK
+
+at_recv: AT+CGSN 351535053365797
+
+OK
+
+at_recv: AT\Q3 OK
+
+at_recv: AT+CMGF=1 OK
+
+at_recv: AT^SCFG="URC/Datamode/Ringline","on" ^SCFG: "URC/Datamode/Ringline","on"
+
+OK 
+at_recv: AT+CNMI=3,1,0,0,1 OK
+
+at_recv: AT+CLIP=1 OK
+
+at_recv: AT+CFUN=9 OK
+
+at_recv: AT^SIND= nitz,1 ^SIND: nitz,1,"",+00
+
+OK 
+at_send: AT+COPS=0,2 
+at_recv: AT+COPS=0,2 OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=1 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=1 OK
+AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_send: " AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: " > ID:BGS2_GT1010,Ver:2.925
++CMGS: 33
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0 OK
+
+at_send: AT+CGDCONT=1,"IP","" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1#
+
+
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.111.180.201
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=1 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=1 OK
+AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_send: " AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: " > ID:BGS2_GT1010,Ver:2.925
++CMGS: 34
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: ATO
+
+
+at_recv: 
+
+at_recv: 
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0
+
+OK
+
+at_send: AT+CGDCONT=1,"IP","ô"
+
+
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1# 
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+
+at_recv: 
+OK
+AMPM_LIB:#CALL# INCOMING_CALL
+
+AMPM_LIB:#CALL# HANG_UP_CALL
+
+
+at_send: ATH AMPM_LIB:#CALL# WAIT_HANG_UP_CALL
+
+
+at_recv: ATH OK
+AMPM_LIB:#CALL# ENSURE_HANG_UP_CALL
+
+AMPM_LIB:#CALL# END_CALL
+
+AMPM_LIB:#CALL# END_CALL_PHASE
+
+AMPM_LIB:#CALL# CALL_IDLE
+
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: 
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=382 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=147 > 07914809000020F311000A9190877729220008B08600561ECB00200054007200ED0020004800691EC7006E002000541EA100690021000A0068007400740070003A002F002F006D006100700073002E0067006F006F0067006C0065002E0063006F006D002F006D006100700073003F0071003D00310030002E003800300030003000320038002C003100300036002E003600350032003000360031
++CMGS: 35
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0 OK
+
+at_send: AT+CGDCONT=1,"IP","IH`F@hH`F@hH`F@h ô|H`F@h@ôøH`F" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1# 
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.111.139.211
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:191 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:38 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=9 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=151 > 07914809000020F311000A9190877729220008B08A003100330032002D0031003300370020004E0067007500791EC5006E0020004D0069006E006800200048006F00E0006E0067002C00200070006801B01EDD006E0067002000310032002C0020005400E2006E0020004200EC006E0068002C002000481ED300200043006800ED0020004D0069006E0068002C0020005600691EC700740020004E0061006D
++CMGS: 36
+
+OK
+
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: ATO
+
+
+at_recv: ATO CONNECT
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+
+at_recv: 
+OK
+AMPM_LIB:#CALL# INCOMING_CALL
+
+AMPM_LIB:#CALL# HANG_UP_CALL
+
+
+at_send: ATH AMPM_LIB:#CALL# WAIT_HANG_UP_CALL
+
+
+at_recv: ATH
+
+
+at_recv: 
+OK
+AMPM_LIB:#CALL# ENSURE_HANG_UP_CALL
+
+AMPM_LIB:#CALL# END_CALL
+
+AMPM_LIB:#CALL# END_CALL_PHASE
+
+AMPM_LIB:#CALL# CALL_IDLE
+
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: 
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=41 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=147 > 07914809000020F311000A9190877729220008B08600561ECB00200054007200ED0020004800691EC7006E002000541EA100690021000A0068007400740070003A002F002F006D006100700073002E0067006F006F0067006C0065002E0063006F006D002F006D006100700073003F0071003D00310030002E003800300030003000320038002C003100300036002E003600350032003000360031
++CMGS: 37
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0 OK
+
+at_send: AT+CGDCONT=1,"IP","" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1#
+
+
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.123.31.198
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:38 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=317 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=151 > 07914809000020F311000A9190877729220008B08A003100330032002D0031003300370020004E0067007500791EC5006E0020004D0069006E006800200048006F00E0006E0067002C00200070006801B01EDD006E0067002000310032002C0020005400E2006E0020004200EC006E0068002C002000481ED300200043006800ED0020004D0069006E0068002C0020005600691EC700740020004E0061006D
++CMGS: 38
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: ATO
+
+
+at_recv: ATO CONNECT
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=1 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=1 OK
+AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_send: " AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: " > ID:BGS2_GT1010,Ver:2.925
++CMGS: 39
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+AMPM_LIB:#CALL# INCOMING_CALL
+
+AMPM_LIB:#CALL# MISS_CALL
+
+AMPM_LIB:#CALL# END_CALL_PHASE
+
+AMPM_LIB:#CALL# CALL_IDLE
+
+
+at_send: ATO
+
+
+at_recv: 
+
+at_recv: 
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0
+
+OK
+
+at_send: AT+CGDCONT=1,"IP","" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1# 
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.122.147.66
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+
+at_recv: 
+OK
+
+RING
+
++CLIP: "0978779222",129,,,,0
+
+AMPM_LIB:#CALL# INCOMING_CALL
+
+AMPM_LIB:#CALL# HANG_UP_CALL
+
+
+at_send: ATH AMPM_LIB:#CALL# WAIT_HANG_UP_CALL
+
+
+at_recv: ATH
+
+
+at_recv: 
+OK
+AMPM_LIB:#CALL# ENSURE_HANG_UP_CALL
+
+AMPM_LIB:#CALL# END_CALL
+
+AMPM_LIB:#CALL# END_CALL_PHASE
+
+AMPM_LIB:#CALL# CALL_IDLE
+
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=438 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=147 > 07914809000020F311000A9190877729220008B08600561ECB00200054007200ED0020004800691EC7006E002000541EA100690021000A0068007400740070003A002F002F006D006100700073002E0067006F006F0067006C0065002E0063006F006D002F006D006100700073003F0071003D00310030002E003800300030003000320038002C003100300036002E003600350032003000360031
++CMGS: 40
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0 OK
+
+at_send: AT+CGDCONT=1,"IP","" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1#
+
+
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.122.156.90
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:38 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=285 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=151 > 07914809000020F311000A9190877729220008B08A003100330032002D0031003300370020004E0067007500791EC5006E0020004D0069006E006800200048006F00E0006E0067002C00200070006801B01EDD006E0067002000310032002C0020005400E2006E0020004200EC006E0068002C002000481ED300200043006800ED0020004D0069006E0068002C0020005600691EC700740020004E0061006D
++CMGS: 41
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: ATO
+
+
+at_recv: ATO CONNECT
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+OK
+
+at_send: ATO
+
+
+at_recv: 
+
+at_recv: ATO CONNECT
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: 
+
+at_send: ATH 
+at_recv: 
+
+at_send: AT+CGACT=0 
+at_recv: 
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: 
+
+at_send: ATH 
+at_recv: 
+
+at_send: AT+CGACT=0 
+at_recv: 
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: 
+
+at_send: ATH 
+at_recv: 
+
+at_send: AT+CGACT=0
+
+
+at_recv: 
+
+at_send: AT 
+at_recv: AT OK
+
+at_recv: AT OK
+
+at_recv: ATI Cinterion
+BGS2-W
+REVISION 01.301
+
+OK
+
+at_recv: AT+CGSN 351535053365797
+
+OK
+
+at_recv: AT\Q3 OK
+
+at_recv: AT+CMGF=1 OK
+
+at_recv: AT^SCFG="URC/Datamode/Ringline","on" ^SCFG: "URC/Datamode/Ringline","on"
+
+OK
+
+at_recv: AT+CNMI=3,1,0,0,1 OK
+
+at_recv: AT+CLIP=1 OK
+
+at_recv: AT+CFUN=9 OK
+
+at_recv: AT^SIND= nitz,1 ^SIND: nitz,1,"",+00
+
+OK
+
+at_send: AT+COPS=0,2 
+at_recv: AT+COPS=0,2 OK
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0 OK
+
+at_send: AT+CGDCONT=1,"IP","" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1#
+
+
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.122.228.76
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+
+at_recv: 
+OK
+AMPM_LIB:#CALL# INCOMING_CALL
+
+AMPM_LIB:#CALL# HANG_UP_CALL
+
+
+at_send: ATH AMPM_LIB:#CALL# WAIT_HANG_UP_CALL
+
+
+at_recv: ATH
+
+OK
+AMPM_LIB:#CALL# ENSURE_HANG_UP_CALL
+
+AMPM_LIB:#CALL# END_CALL
+
+AMPM_LIB:#CALL# END_CALL_PHASE
+
+AMPM_LIB:#CALL# CALL_IDLE
+
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: 
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=132 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=147 > 07914809000020F319190877729220008B08600561ECB00200054007200ED0020004800691EC7006E002000541EA100690021000A0068007400740070003A002F002F006D006100700073002E0067006F006F0067006C0065002E0063006F006D002F006D006100700073003F0071003D00310030002E003800300030003000320038002C003100300036002E003600350032003000360031
++CMGS: 42
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0 OK
+
+at_send: AT+CGDCONT=1,"IP","" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1#
+
+
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.115.72.238
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:38 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=398 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=151 > 0791409000020F311000A9190877729220008B08A003100330032002D0031003300370020004E0067007500791EC5006E0020004D0069006E006800200048006F00E0006E0067002C00200070006801B01EDD006E0067002000310032002C0020005400E2006E0020004200EC006E0068002C002000481ED300200043006800ED0020004D0069006E0068002C0020005600691EC700740020004E0061006D
++CMGS: 43
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: ATO
+
+
+at_recv: ATO CONNECT
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=1 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=1 OK
+AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_send: " AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: " > ID:BGS2_GT1010,Ver:2.925
++CMGS: 44
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+AMPM_LIB:#CALL# INCOMING_CALL
+
+AMPM_LIB:#CALL# MISS_CALL
+
+AMPM_LIB:#CALL# END_CALL_PHASE
+
+AMPM_LIB:#CALL# CALL_IDLE
+
+
+at_send: ATO
+
+
+at_recv: 
+
+at_recv: 
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0
+
+OK
+
+at_send: AT+CGDCONT=1,"IP","˜°õ oñÑ`H"
+
+
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1# 
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.126.66.159
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: FCS fails, discard
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+
+at_recv: 
+OK
+AMPM_LIB:#CALL# INCOMING_CALL
+
+AMPM_LIB:#CALL# HANG_UP_CALL
+
+
+at_send: ATH AMPM_LIB:#CALL# WAIT_HANG_UP_CALL
+
+
+at_recv: ATH
+
+OK
+AMPM_LIB:#CALL# ENSURE_HANG_UP_CALL
+
+AMPM_LIB:#CALL# END_CALL
+
+AMPM_LIB:#CALL# END_CALL_PHASE
+
+AMPM_LIB:#CALL# CALL_IDLE
+
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=37 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=147 > 07914809000020F311000A9190877729220008B08600561ECB00200054007200ED0020004800691EC7006E002000541EA100690021000A0068007400740070003A002F002F006D006100700073002E0067006F006F0067006C0065002E0063006F006D002F006D006100700073003F0071003D00310030002E003800300030003000320038002C003100300036002E003600350032003000360031
++CMGS: 45
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0 OK
+
+at_send: AT+CGDCONT=1,"IP","" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1#
+
+
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.117.20.219
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:38 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+
+at_recv: 
+OK
+AMPM_LIB:#SMS# SMS_DELAY_START_SEND
+
+
+at_send: AT+CMGF=0 AMPM_LIB:#SMS# SMS_START_SEND
+
+
+at_recv: AT+CMGF=0 OK
+
+at_send: AT+CSCA? AMPM_LIB:#SMS# SMS_WAIT_MODEM_INIT
+
+
+at_recv: AT+CSCA? +CSCA: "+84900000023",145
+
+OK
+
+at_send: AT+CMGS=192 AMPM_LIB:#SMS# SMS_WAIT_MODEM_ANSWER
+
+
+at_recv: AT+CMGS=151 > 07914809000020F311000A9190877729220008B08A003100330032002D0031003300370020004E0067007500791EC5006E0020004D0069006E006800200048006F00E0006E0067002C00200070006801B01EDD006E0067002000310032002C0020005400E2006E0020004200EC006E0068002C002000481ED300200043006800ED0020004D0069006E0068002C0020005600691EC700740020004E0061006D
++CMGS: 46
+
+OK
+AMPM_LIB:#SMS# SMS_SENT
+
+AMPM_LIB:#SMS# SMS_IDLE
+
+
+at_send: ATO
+
+
+at_recv: ATO CONNECT
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+
+at_recv: 
+OK
+
+at_send: ATO
+
+
+at_recv: 
+
+at_recv: ATO CONNECT
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: 
+
+at_send: ATH 
+at_recv: 
+
+at_send: AT+CGACT=0 
+at_recv: 
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: 
+
+at_send: ATH 
+at_recv: 
+
+at_send: AT+CGACT=0 
+at_recv: 
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: 
+
+at_send: ATH 
+at_recv: 
+
+at_send: AT+CGACT=0 
+at_recv: 
+
+at_send: AT 
+at_recv: AT OK
+
+at_recv: AT OK
+
+at_recv: ATI Cinterion
+BGS2-W
+REVISION 01.301
+
+OK
+
+at_recv: AT+CGSN 351535053365797
+
+OK
+
+at_recv: AT\Q3 OK
+
+at_recv: AT+CMGF=1 OK
+
+at_recv: AT^SCFG="URC/Datamode/Ringline","on" ^SCFG: "URC/Datamode/Ringline","on"
+
+OK
+
+at_recv: AT+CNMI=3,1,0,0,1 OK
+
+at_recv: AT+CLIP=1 OK
+
+at_recv: AT+CFUN=9 OK
+
+at_recv: AT^SIND= nitz,1 ^SIND: nitz,1,"",+00
+
+OK
+
+at_send: AT+COPS=0,2 
+at_recv: AT+COPS=0,2 OK 
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0 OK
+
+at_send: AT+CGDCONT=1,"IP","" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1#
+
+
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.127.243.109
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+OK
+
+at_send: ATO
+
+
+at_recv: 
+
+at_recv: 
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0
+
+OK
+
+at_send: AT+CGDCONT=1,"IP","" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1# 
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: FCS fails, discard
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Event TO+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.119.174.99
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+
+at_send: AT 
+at_recv: AT OK
+
+at_send: ATO
+
+
+at_recv: 
+
+at_recv: 
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0
+
+OK
+
+at_send: AT+CGDCONT=1,"IP","gH" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1# 
+at_recv: ATDT*99***1#
+
+CONNEC
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.119.54.145
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+
+at_recv: 
+
+at_send: AT 
+at_recv: 
+
+at_recv: 
+OK
+
+at_send: ATO
+
+
+at_recv: 
+
+at_recv: 
+
+at_send: +++
+
+at_recv: 
+
+at_send: AT
+
+at_recv: AT
+
+at_send: ATH 
+at_recv: ATH NO CARRIER
+
+
+at_send: AT+CGACT=0 
+at_recv: AT+CGACT=0
+
+OK
+
+at_send: AT+CGDCONT=1,"IP","" 
+at_recv: AT+CGDCONT=1,"IP","internet" OK
+
+at_send: ATDT*99***1# 
+at_recv: ATDT*99***1#
+
+CONNECT
+~ÿ}#À!}!}#} }9}"}&} }*} } }'}"}(}"}%}&ö{I¦}#}%Â#}%êb~
+PPP: LCP Started
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got LCP CONFIG_NACK
+
+
+PPP: Send LCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_NACK/REJ
+
+PPP: Got
+
+PPP: Got LCP CONFIG_ACK
+, Out of sync
+
+PPP: Got
+
+PPP: Got LCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: LCP Up
+
+PPP: PAP Started
+
+PPP: Send PAP CONFIG_REQ, usr: mms, pwd: mms
+
+PPP: Got
+
+PPP: Got PAP CONFIG_ACK
+
+PPP: Send CONFIG_ACK
+
+PPP: PAP Up
+
+PPP: IPCP Started
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_REQ
+
+PPP: Send CONFIG_ACK
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_NACK
+
+PPP: Send IPCP CONFIG_REQ
+
+PPP: Got
+
+PPP: Got IPCP CONFIG_ACK
+
+PPP: IPCP Up
+
+PPP: Local IP: 10.122.19.116
+
+PPP: PRI DNS: 8.8.8.8
+
+PPP: SEC DNS: 10.19.195.212
+
+PPP: Got
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+DATA_SVR: Started, Server 211.21.204.23:4050
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: connected
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+PPP: Got IP
+
+PPP: Got
+
+DATA_SVR: sent:192 byte(s)
+
+FW_SVR: Started, Server 118.69.60.174:50000
+
+PPP: Got IP
+
+PPP: Got
+
+FW_SVR: timedout|closed|aborted 0

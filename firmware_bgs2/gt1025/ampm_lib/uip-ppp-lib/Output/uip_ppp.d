@@ -1,0 +1,17 @@
+.\output\uip_ppp.o: ..\uip\uip_ppp.c
+.\output\uip_ppp.o: ..\uip\uip_ppp.h
+.\output\uip_ppp.o: ..\PPP\ppp.h
+.\output\uip_ppp.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\output\uip_ppp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\uip_ppp.o: ..\PPP\typedef.h
+.\output\uip_ppp.o: ..\PPP\fcs.h
+.\output\uip_ppp.o: ..\..\ampm_lib\lib/ringbuf.h
+.\output\uip_ppp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\uip_ppp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\uip_ppp.o: ..\common\comm.h
+.\output\uip_ppp.o: ..\uip\timer.h
+.\output\uip_ppp.o: ..\..\ampm_lib\lib/tick.h
+.\output\uip_ppp.o: ..\uip\uip.h
+.\output\uip_ppp.o: ..\uip-ppp-lib\uipopt.h
+.\output\uip_ppp.o: ..\uip-ppp-lib\uip-conf.h
+.\output\uip_ppp.o: ..\..\ampm_lib\lib/sys_tick.h

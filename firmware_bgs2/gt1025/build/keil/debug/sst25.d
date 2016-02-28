@@ -1,0 +1,15 @@
+.\debug\sst25.o: ..\..\ampm_lib\flash_mem\sst25.c
+.\debug\sst25.o: ..\..\driver\ampm\stm32\spi.h
+.\debug\sst25.o: ..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\debug\sst25.o: ..\..\CMSIS\CM3\CoreSupport\core_cm3.h
+.\debug\sst25.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\debug\sst25.o: ..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\debug\sst25.o: ..\..\inc\stm32f10x_conf.h
+.\debug\sst25.o: ..\..\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+.\debug\sst25.o: ..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\debug\sst25.o: ..\..\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h
+.\debug\sst25.o: ..\..\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+.\debug\sst25.o: ..\..\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\debug\sst25.o: ..\..\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\debug\sst25.o: ..\..\driver\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\debug\sst25.o: ..\..\ampm_lib\flash_mem\sst25.h

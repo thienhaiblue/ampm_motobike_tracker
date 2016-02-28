@@ -1,0 +1,4 @@
+Dependencies for Project 'sst25_lib', Target 'sst25_lib': (DO NOT MODIFY !)
+F (..\sst25.c)(0x5327EE82)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\sst25.o --omf_browse .\sst25.crf --depend .\sst25.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\spi.h)(0x5327EE87)
+I (C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h)(0x51C7BDFA)

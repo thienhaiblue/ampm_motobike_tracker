@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<Workspace>
+  <ConfigDictionary>
+    
+    
+    
+  <CurrentConfigs><Project>ampm_gprs/Debug</Project><Project>STM3210E-EVAL_Demo/Debug</Project><Project>TestBoardPrj/STM3240G-EVAL</Project></CurrentConfigs><CurrentProj>ampm_gprs</CurrentProj><OverviewSelected>0</OverviewSelected></ConfigDictionary>
+  <Desktop>
+    <Static>
+      <Workspace>
+        <ColumnWidths>
+          
+          
+          
+          
+        <Column0>280</Column0><Column1>27</Column1><Column2>27</Column2><Column3>27</Column3></ColumnWidths>
+      </Workspace>
+      <Build>
+        
+        
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1345</ColumnWidth1><ColumnWidth2>358</ColumnWidth2><ColumnWidth3>89</ColumnWidth3></Build>
+      <Debug-Log>
+        
+        
+      <ColumnWidth0>20</ColumnWidth0><ColumnWidth1>1794</ColumnWidth1></Debug-Log>
+      <TerminalIO/>
+      <Find-in-Files>
+        <ColumnWidth0>640</ColumnWidth0>
+        <ColumnWidth1>91</ColumnWidth1>
+        <ColumnWidth2>1098</ColumnWidth2>
+      </Find-in-Files>
+    </Static>
+    <Windows>
+      
+      
+    <Wnd2>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-16984-28091</Identity>
+            <TabName>Workspace</TabName>
+            <Factory>Workspace</Factory>
+            <Session>
+              
+            <NodeDict><ExpandedNode>&lt;ws&gt;</ExpandedNode><ExpandedNode>STM3210E-EVAL_Demo</ExpandedNode><ExpandedNode>TestBoardPrj</ExpandedNode><ExpandedNode>TestBoardPrj/App</ExpandedNode><ExpandedNode>TestBoardPrj/App/main.c</ExpandedNode><ExpandedNode>TestBoardPrj/Core MCU &amp; Peripheral</ExpandedNode><ExpandedNode>TestBoardPrj/Core MCU &amp; Peripheral/STM32F103x8</ExpandedNode><ExpandedNode>TestBoardPrj/Core MCU &amp; Peripheral/STM32F103x8/CMSIS</ExpandedNode><ExpandedNode>TestBoardPrj/ampm_lib</ExpandedNode><ExpandedNode>ampm_gprs</ExpandedNode><ExpandedNode>ampm_gprs/CMSIS</ExpandedNode><ExpandedNode>ampm_gprs/Output</ExpandedNode><ExpandedNode>ampm_gprs/common_lib</ExpandedNode><ExpandedNode>ampm_gprs/gps</ExpandedNode><ExpandedNode>ampm_gprs/gsm_task</ExpandedNode><ExpandedNode>ampm_gprs/icfFile</ExpandedNode><ExpandedNode>ampm_gprs/main</ExpandedNode><ExpandedNode>ampm_gprs/startup</ExpandedNode></NodeDict></Session>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd2><Wnd3>
+        <Tabs>
+          <Tab>
+            <Identity>TabID-20706-28431</Identity>
+            <TabName>Build</TabName>
+            <Factory>Build</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-6131-29113</Identity>
+            <TabName>Debug Log</TabName>
+            <Factory>Debug-Log</Factory>
+            <Session/>
+          </Tab>
+          <Tab>
+            <Identity>TabID-13074-31644</Identity>
+            <TabName>Find in Files</TabName>
+            <Factory>Find-in-Files</Factory>
+            <Session/>
+          </Tab>
+        </Tabs>
+        
+      <SelectedTab>0</SelectedTab></Wnd3></Windows>
+    <Editor>
+      
+      
+      
+      
+    <Pane><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>258</YPos2><SelStart2>9587</SelStart2><SelEnd2>9587</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>1235</YPos2><SelStart2>53205</SelStart2><SelEnd2>53205</SelEnd2></Tab><Tab><Factory>TextEditor</Factory><Filename>$WS_DIR$\gt1025\src\main.c</Filename><XPos>0</XPos><YPos>0</YPos><SelStart>0</SelStart><SelEnd>0</SelEnd><XPos2>0</XPos2><YPos2>45</YPos2><SelStart2>1789</SelStart2><SelEnd2>1789</SelEnd2></Tab><ActiveTab>2</ActiveTab></Pane><ActivePane>0</ActivePane><Sizes><Pane><X>1000000</X><Y>1000000</Y></Pane></Sizes><SplitMode>1</SplitMode></Editor>
+    <Positions>
+      
+      
+      
+      
+      
+    <Top><Row0><Sizes><Toolbar-02666108><key>iaridepm.enu1</key></Toolbar-02666108></Sizes></Row0><Row1><Sizes/></Row1></Top><Left><Row0><Sizes><Wnd2><Rect><Top>-2</Top><Left>-2</Left><Bottom>795</Bottom><Right>371</Right><x>-2</x><y>-2</y><xscreen>200</xscreen><yscreen>200</yscreen><sizeHorzCX>107933</sizeHorzCX><sizeHorzCY>192678</sizeHorzCY><sizeVertCX>201295</sizeVertCX><sizeVertCY>767823</sizeVertCY></Rect></Wnd2></Sizes></Row0></Left><Right><Row0><Sizes/></Row0></Right><Bottom><Row0><Sizes><Wnd3><Rect><Top>-2</Top><Left>-2</Left><Bottom>198</Bottom><Right>1855</Right><x>-2</x><y>-2</y><xscreen>1857</xscreen><yscreen>200</yscreen><sizeHorzCX>1002159</sizeHorzCX><sizeHorzCY>192678</sizeHorzCY><sizeVertCX>107933</sizeVertCX><sizeVertCY>192678</sizeVertCY></Rect></Wnd3></Sizes></Row0></Bottom><Float><Sizes/></Float></Positions>
+  </Desktop>
+</Workspace>
+
+

@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\flash_mem\keil\sst25_lib.uvproj
+Project File Date:  04/10/2014
+
+<h2>Output:</h2>
+Build target 'sst25_lib'
+compiling sst25.c...
+..\sst25.c(3): error:  #5: cannot open source input file "spi.h": No such file or directory
+".\Output\sst25_lib.lib" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'sst25_lib'
+compiling sst25.c...
+..\sst25.c(3): error:  #5: cannot open source input file "spi.h": No such file or directory
+".\Output\sst25_lib.lib" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'sst25_lib'
+compiling sst25.c...
+..\sst25.c(3): error:  #5: cannot open source input file "spi.h": No such file or directory
+".\Output\sst25_lib.lib" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'sst25_lib'
+compiling sst25.c...
+C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+".\Output\sst25_lib.lib" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'sst25_lib'
+compiling sst25.c...
+C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h(96): error:  #35: #error directive: "Please select first the target STM32F10x device used in your application (in stm32f10x.h file)"
+".\Output\sst25_lib.lib" - 1 Errors, 0 Warning(s).
+Target not created
+Build target 'sst25_lib'
+compiling sst25.c...
+..\sst25.c(263): warning:  #177-D: variable "status" was declared but never referenced
+..\sst25.c(261): warning:  #177-D: function "SST25__WriteDisable" was declared but never referenced
+..\sst25.c(279): warning:  #177-D: function "SST25__GlobalProtect" was declared but never referenced
+creating Library...
+".\Output\sst25_lib.lib" - 0 Errors, 3 Warning(s).
+Build target 'sst25_lib'
+compiling sst25.c...
+..\sst25.c(263): warning:  #177-D: variable "status" was declared but never referenced
+..\sst25.c(261): warning:  #177-D: function "SST25__WriteDisable" was declared but never referenced
+..\sst25.c(279): warning:  #177-D: function "SST25__GlobalProtect" was declared but never referenced
+creating Library...
+".\Output\sst25_lib.lib" - 0 Errors, 3 Warning(s).
+Build target 'sst25_lib'
+creating Library...
+".\Output\sst25_lib.lib" - 0 Errors, 0 Warning(s).

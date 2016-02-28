@@ -1,0 +1,17 @@
+.\debug\uip_ppp.o: ..\..\ampm_lib\uip\uip_ppp.c
+.\debug\uip_ppp.o: ..\..\ampm_lib\uip\uip_ppp.h
+.\debug\uip_ppp.o: ..\..\ampm_lib\PPP\ppp.h
+.\debug\uip_ppp.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\debug\uip_ppp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\debug\uip_ppp.o: ..\..\ampm_lib\PPP\typedef.h
+.\debug\uip_ppp.o: ..\..\ampm_lib\PPP\fcs.h
+.\debug\uip_ppp.o: ..\..\ampm_lib\lib/ringbuf.h
+.\debug\uip_ppp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\debug\uip_ppp.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\debug\uip_ppp.o: ..\..\ampm_lib\common\comm.h
+.\debug\uip_ppp.o: ..\..\ampm_lib\uip\timer.h
+.\debug\uip_ppp.o: ..\..\ampm_lib\lib/tick.h
+.\debug\uip_ppp.o: ..\..\ampm_lib\uip\uip.h
+.\debug\uip_ppp.o: ..\..\ampm_lib\uip-ppp-lib\uipopt.h
+.\debug\uip_ppp.o: ..\..\ampm_lib\uip-ppp-lib\uip-conf.h
+.\debug\uip_ppp.o: ..\..\ampm_lib\lib/sys_tick.h

@@ -1,0 +1,277 @@
+Dependencies for Project 'bt1', Target 'HELLO': (DO NOT MODIFY !)
+F (..\..\src\main.c)(0x53193EC6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\main.o --omf_browse .\flash\main.crf --depend .\flash\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\uart1.h)(0x5305BD93)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\tick.h)(0x5305BB36)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x530D99AA)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x5305C36B)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x5305BFC0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5305BCCB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x530DA39E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x5309B670)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x5305B883)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x530B7C57)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x530A2A65)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x530A2E8D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\cinterion\at_cinterion_gprs_task.h)(0x5305CEDF)
+F (..\..\src\sms_server.c)(0x530C7070)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\sms_server.o --omf_browse .\flash\sms_server.crf --depend .\flash\sms_server.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\src\sms_server.h)(0x530C7017)
+F (..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_md.s)(0x52D690FC)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_md.lst --xref -o .\flash\startup_stm32f10x_md.o --depend .\flash\startup_stm32f10x_md.d)
+F (..\..\CMSIS\CM3\CoreSupport\core_cm3.c)(0x4FEACCEF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\core_cm3.o --omf_browse .\flash\core_cm3.crf --depend .\flash\core_cm3.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+F (..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c)(0x52D69020)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\system_stm32f10x.o --omf_browse .\flash\system_stm32f10x.crf --depend .\flash\system_stm32f10x.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+F (..\..\driver\tick.c)(0x53035CB5)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\tick.o --omf_browse .\flash\tick.crf --depend .\flash\tick.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\tick.h)(0x5305BB36)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+F (..\..\driver\uart1.c)(0x530816B4)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\uart1.o --omf_browse .\flash\uart1.crf --depend .\flash\uart1.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\uart1.h)(0x5305BD93)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\src\dbg.c)(0x53035D0A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\dbg.o --omf_browse .\flash\dbg.crf --depend .\flash\dbg.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\ampm_lib\lib\list.c)(0x5305B16A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\list.o --omf_browse .\flash\list.crf --depend .\flash\list.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+F (..\..\ampm_lib\lib\ringbuf.c)(0x53193D7D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\ringbuf.o --omf_browse .\flash\ringbuf.crf --depend .\flash\ringbuf.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\ampm_lib\lib\sparser.c)(0x530B8135)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\sparser.o --omf_browse .\flash\sparser.crf --depend .\flash\sparser.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\tick.h)(0x5305BB36)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5305BCCB)
+F (..\..\ampm_lib\lib\data_cmp.c)(0x52F26031)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\data_cmp.o --omf_browse .\flash\data_cmp.crf --depend .\flash\data_cmp.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+F (..\..\ampm_lib\gsm\at_cmd_call_parser.c)(0x5305C1E9)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\at_cmd_call_parser.o --omf_browse .\flash\at_cmd_call_parser.crf --depend .\flash\at_cmd_call_parser.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5305BCCB)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x530DA39E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x5309B670)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x5305B883)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x530B7C57)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x530A2A65)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\tick.h)(0x5305BB36)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x5305C36B)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x5305BFC0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\uart1.h)(0x5305BD93)
+F (..\..\ampm_lib\gsm\at_cmd_common_parser.c)(0x530E9D2B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\at_cmd_common_parser.o --omf_browse .\flash\at_cmd_common_parser.crf --depend .\flash\at_cmd_common_parser.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5305BCCB)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x530DA39E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x5309B670)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x5305B883)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x530B7C57)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x530A2A65)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\tick.h)(0x5305BB36)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x5305C36B)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x5305BFC0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\uart1.h)(0x5305BD93)
+F (..\..\ampm_lib\gsm\at_cmd_sms_parser.c)(0x530DAC4F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\at_cmd_sms_parser.o --omf_browse .\flash\at_cmd_sms_parser.crf --depend .\flash\at_cmd_sms_parser.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x5305C36B)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x5305BFC0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\uart1.h)(0x5305BD93)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5305BCCB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\tick.h)(0x5305BB36)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x530DA39E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x5309B670)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x5305B883)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x530B7C57)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x530A2A65)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x530A2E8D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x530D99AA)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+F (..\..\ampm_lib\gsm\at_command_parser.c)(0x530E9D54)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\at_command_parser.o --omf_browse .\flash\at_command_parser.crf --depend .\flash\at_command_parser.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5305BCCB)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x530DA39E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x5309B670)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x5305B883)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x530B7C57)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x530A2A65)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\tick.h)(0x5305BB36)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x5305C36B)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x5305BFC0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\uart1.h)(0x5305BD93)
+F (..\..\ampm_lib\gsm\at_gsm_task.c)(0x531810DB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\at_gsm_task.o --omf_browse .\flash\at_gsm_task.crf --depend .\flash\at_gsm_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x5305C36B)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x5305BFC0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\uart1.h)(0x5305BD93)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\tick.h)(0x5305BB36)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5305BCCB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x530DA39E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x5309B670)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x5305B883)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x530B7C57)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x530A2A65)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x530D99AA)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x530A2E8D)
+F (..\..\ampm_lib\gsm\at_send_cmd_task.c)(0x530C88AC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\at_send_cmd_task.o --omf_browse .\flash\at_send_cmd_task.crf --depend .\flash\at_send_cmd_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\tick.h)(0x5305BB36)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x5305C36B)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x5305BFC0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\uart1.h)(0x5305BD93)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5305BCCB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x530DA39E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x5309B670)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x5305B883)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x530B7C57)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x530A2A65)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x530D99AA)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x530A2E8D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+F (..\..\ampm_lib\gsm\gsm_hwr.c)(0x530A2E75)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\gsm_hwr.o --omf_browse .\flash\gsm_hwr.crf --depend .\flash\gsm_hwr.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x5305BFC0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\uart1.h)(0x5305BD93)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\tick.h)(0x5305BB36)
+F (..\..\ampm_lib\gsm\modem.c)(0x5305C28B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\modem.o --omf_browse .\flash\modem.crf --depend .\flash\modem.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x5305C36B)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x5305BFC0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\uart1.h)(0x5305BD93)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\tick.h)(0x5305BB36)
+F (..\..\ampm_lib\gsm\u-blox\at_cmd_g100_parser.c)(0x530CB1A2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\at_cmd_g100_parser.o --omf_browse .\flash\at_cmd_g100_parser.crf --depend .\flash\at_cmd_g100_parser.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x5305C36B)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x5305BFC0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\uart1.h)(0x5305BD93)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5305BCCB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\tick.h)(0x5305BB36)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x530DA39E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x5309B670)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x5305B883)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x530B7C57)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x530A2A65)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x530D99AA)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x530A2E8D)
+F (..\..\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.c)(0x53193EBD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_MD -o .\flash\at_u_blox_gprs_task.o --omf_browse .\flash\at_u_blox_gprs_task.crf --depend .\flash\at_u_blox_gprs_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x5305C36B)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x5305BFC0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x52D69302)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\uart1.h)(0x5305BD93)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\tick.h)(0x5305BB36)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5305BCCB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x530DA39E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x5309B670)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x5305B883)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x530B7C57)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x530A2A65)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x530D99AA)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x530A2E8D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)

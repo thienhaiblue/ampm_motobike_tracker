@@ -1,0 +1,1313 @@
+Dependencies for Project 'bt1', Target 'GT1025': (DO NOT MODIFY !)
+F (..\..\src\main.c)(0x53903A95)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\main.o --omf_browse .\flash\main.crf --depend .\flash\main.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart1.h)(0x53788909)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart2.h)(0x5327F453)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart3.h)(0x534512A0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart5.h)(0x537ACB05)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\i2c.h)(0x52F7837E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\tick.h)(0x53461600)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x537581D4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x536A07A4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_ftp_task.h)(0x53688763)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\rtc.h)(0x53786A74)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\dbg.h)(0x52D3F8AA)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\low_power_mode.h)(0x52F7837E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\flash_mem\sst25.h)(0x53771A78)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\tracker.h)(0x53297F90)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\db\db.h)(0x537042B7)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_time.h)(0x53704670)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\adc_task.h)(0x53781E23)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\sms_task.h)(0x538FEF44)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\call_task.h)(0x53379ED5)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\alarm_task.h)(0x538ED268)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\ota_task.h)(0x5375646C)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\uart_config_task.h)(0x53451368)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\app_config_task.h)(0x5386E9FF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\accelerometer_task.h)(0x5370DA57)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\spi.h)(0x53702C3D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\accelerometer\mma7660\mma7660.h)(0x53476DF2)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\accelerometer\xl362\xl362.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\accelerometer\xl362\xl362_io.h)(0x53703022)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\database_app.h)(0x537635B7)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x522ACB76)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x536E7C2A)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\resolv.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\uart_odb2.h)(0x53788DA6)
+F (..\..\src\system_config.c)(0x5381C777)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\system_config.o --omf_browse .\flash\system_config.crf --depend .\flash\system_config.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\rtc.h)(0x53786A74)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\dbg.h)(0x52D3F8AA)
+F (..\..\src\hw_config.c)(0x537791D7)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\hw_config.o --omf_browse .\flash\hw_config.crf --depend .\flash\hw_config.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\src\tracker.c)(0x53895279)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\tracker.o --omf_browse .\flash\tracker.crf --depend .\flash\tracker.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\tracker.h)(0x53297F90)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\db\db.h)(0x537042B7)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_time.h)(0x53704670)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\flash_mem\sst25.h)(0x53771A78)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\rtc.h)(0x53786A74)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\dbg.h)(0x52D3F8AA)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\adc_task.h)(0x53781E23)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\database_app.h)(0x537635B7)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+F (..\..\src\led.c)(0x53904764)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\led.o --omf_browse .\flash\led.crf --depend .\flash\led.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\rtc.h)(0x53786A74)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\dbg.h)(0x52D3F8AA)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x536A07A4)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_time.h)(0x53704670)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+F (..\..\src\adc_task.c)(0x537824BA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\adc_task.o --omf_browse .\flash\adc_task.crf --depend .\flash\adc_task.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\adc_task.h)(0x53781E23)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\src\sms_task.c)(0x53903C9F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\sms_task.o --omf_browse .\flash\sms_task.crf --depend .\flash\sms_task.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x536A07A4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x537581D4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\flash_mem\sst25.h)(0x53771A78)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\adc_task.h)(0x53781E23)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\database_app.h)(0x537635B7)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\db\db.h)(0x537042B7)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_time.h)(0x53704670)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\FATFS\option\cc950.h)(0x538FEEDC)
+F (..\..\src\call_task.c)(0x5386E274)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\call_task.o --omf_browse .\flash\call_task.crf --depend .\flash\call_task.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x536A07A4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x537581D4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\flash_mem\sst25.h)(0x53771A78)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\adc_task.h)(0x53781E23)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\sms_task.h)(0x538FEF44)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\FATFS\option\cc950.h)(0x538FEEDC)
+F (..\..\src\alarm_task.c)(0x53900916)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\alarm_task.o --omf_browse .\flash\alarm_task.crf --depend .\flash\alarm_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_time.h)(0x53704670)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x536A07A4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x537581D4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\flash_mem\sst25.h)(0x53771A78)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\adc_task.h)(0x53781E23)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\sms_task.h)(0x538FEF44)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\call_task.h)(0x53379ED5)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\dbg.h)(0x52D3F8AA)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\rtc.h)(0x53786A74)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\FATFS\ff.h)(0x52F7837E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\FATFS\integer.h)(0x52F7837E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\FATFS\ffconf.h)(0x53719CD1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\FATFS\option\cc950.h)(0x538FEEDC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\app_config_task.h)(0x5386E9FF)
+F (..\..\src\ota_task.c)(0x537F6911)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\ota_task.o --omf_browse .\flash\ota_task.crf --depend .\flash\ota_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart1.h)(0x53788909)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart2.h)(0x5327F453)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart3.h)(0x534512A0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\tick.h)(0x53461600)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x537581D4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x536A07A4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_ftp_task.h)(0x53688763)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\rtc.h)(0x53786A74)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\dbg.h)(0x52D3F8AA)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\low_power_mode.h)(0x52F7837E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\flash_mem\sst25.h)(0x53771A78)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\tracker.h)(0x53297F90)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\db\db.h)(0x537042B7)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_time.h)(0x53704670)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\adc_task.h)(0x53781E23)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\sms_task.h)(0x538FEF44)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\call_task.h)(0x53379ED5)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\alarm_task.h)(0x538ED268)
+F (..\..\src\app_config_task.c)(0x5386F0F7)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\app_config_task.o --omf_browse .\flash\app_config_task.crf --depend .\flash\app_config_task.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\app_config_task.h)(0x5386E9FF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+F (..\..\src\uart_config_task.c)(0x537C5539)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\uart_config_task.o --omf_browse .\flash\uart_config_task.crf --depend .\flash\uart_config_task.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\uart_config_task.h)(0x53451368)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\app_config_task.h)(0x5386E9FF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart3.h)(0x534512A0)
+F (..\..\src\acclerometer_task.c)(0x538FCB89)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\acclerometer_task.o --omf_browse .\flash\acclerometer_task.crf --depend .\flash\acclerometer_task.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\accelerometer_task.h)(0x5370DA57)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\spi.h)(0x53702C3D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\accelerometer\mma7660\mma7660.h)(0x53476DF2)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\i2c.h)(0x52F7837E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\accelerometer\xl362\xl362.h)(0x533E1D50)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\accelerometer\xl362\xl362_io.h)(0x53703022)
+F (..\..\src\database_app.c)(0x53894F1C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\database_app.o --omf_browse .\flash\database_app.crf --depend .\flash\database_app.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\db\db.h)(0x537042B7)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_time.h)(0x53704670)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\flash_mem\sst25.h)(0x53771A78)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\rtc.h)(0x53786A74)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\dbg.h)(0x52D3F8AA)
+F (..\..\ampm_lib\lib\tick.c)(0x53831ED6)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\tick.o --omf_browse .\flash\tick.crf --depend .\flash\tick.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\tick.h)(0x53461600)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\alarm_task.h)(0x538ED268)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x4FEACCEF)
+F (..\..\src\uart_odb2.c)(0x53789931)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\uart_odb2.o --omf_browse .\flash\uart_odb2.crf --depend .\flash\uart_odb2.d)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\uart_odb2.h)(0x53788DA6)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart5.h)(0x537ACB05)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+F (..\..\ampm_lib\FATFS\option\cc950.c)(0x538FF9B7)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\cc950.o --omf_browse .\flash\cc950.crf --depend .\flash\cc950.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+F (..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\startup\arm\startup_stm32f10x_hd.s)(0x50077557)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x--list .\startup_stm32f10x_hd.lst --xref -o .\flash\startup_stm32f10x_hd.o --depend .\flash\startup_stm32f10x_hd.d)
+F (..\..\CMSIS\CM3\CoreSupport\core_cm3.c)(0x4FEACCEF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\core_cm3.o --omf_browse .\flash\core_cm3.crf --depend .\flash\core_cm3.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+F (..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.c)(0x5348EF97)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\system_stm32f10x.o --omf_browse .\flash\system_stm32f10x.crf --depend .\flash\system_stm32f10x.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_flash.c)(0x501A155B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\stm32f10x_flash.o --omf_browse .\flash\stm32f10x_flash.crf --depend .\flash\stm32f10x_flash.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_iwdg.c)(0x50F653B0)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\stm32f10x_iwdg.o --omf_browse .\flash\stm32f10x_iwdg.crf --depend .\flash\stm32f10x_iwdg.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\ampm\stm32\uart1.c)(0x5386C555)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\uart1.o --omf_browse .\flash\uart1.crf --depend .\flash\uart1.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart1.h)(0x53788909)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\driver\ampm\stm32\uart2.c)(0x532A5A0B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\uart2.o --omf_browse .\flash\uart2.crf --depend .\flash\uart2.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart2.h)(0x5327F453)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+F (..\..\driver\ampm\stm32\uart3.c)(0x53788941)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\uart3.o --omf_browse .\flash\uart3.crf --depend .\flash\uart3.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart3.h)(0x534512A0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\camera\rs485_camera.h)(0x53194EEE)
+F (..\..\driver\ampm\stm32\i2c.c)(0x5378274C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\i2c.o --omf_browse .\flash\i2c.crf --depend .\flash\i2c.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\i2c.h)(0x52F7837E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\driver\ampm\stm32\spi.c)(0x53702C1C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\spi.o --omf_browse .\flash\spi.crf --depend .\flash\spi.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\spi.h)(0x53702C3D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\ampm\stm32\low_power_mode.c)(0x52F7837E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\low_power_mode.o --omf_browse .\flash\low_power_mode.crf --depend .\flash\low_power_mode.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\low_power_mode.h)(0x52F7837E)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\driver\ampm\stm32\rtc.c)(0x53894E97)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\rtc.o --omf_browse .\flash\rtc.crf --depend .\flash\rtc.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\rtc.h)(0x53786A74)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\dbg.h)(0x52D3F8AA)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_iwdg.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_time.h)(0x53704670)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\database_app.h)(0x537635B7)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\db\db.h)(0x537042B7)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\flash_mem\sst25.h)(0x53771A78)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart3.h)(0x534512A0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+F (..\..\driver\ampm\stm32\exti.c)(0x53784D35)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\exti.o --omf_browse .\flash\exti.crf --depend .\flash\exti.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\dbg.h)(0x52D3F8AA)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\low_power_mode.h)(0x52F7837E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\rtc.h)(0x53786A74)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+F (..\..\driver\ampm\stm32\freq_Capture.c)(0x537F4F9B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\freq_capture.o --omf_browse .\flash\freq_capture.crf --depend .\flash\freq_capture.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\freq_Capture.h)(0x52F7837D)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\dbg.h)(0x52D3F8AA)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_gpio.c)(0x4FEACCEF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\stm32f10x_gpio.o --omf_browse .\flash\stm32f10x_gpio.crf --depend .\flash\stm32f10x_gpio.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_dma.c)(0x4FEACCEF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\stm32f10x_dma.o --omf_browse .\flash\stm32f10x_dma.crf --depend .\flash\stm32f10x_dma.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_dac.c)(0x4FEACCEF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\stm32f10x_dac.o --omf_browse .\flash\stm32f10x_dac.crf --depend .\flash\stm32f10x_dac.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dac.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_adc.c)(0x4FEACCEF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\stm32f10x_adc.o --omf_browse .\flash\stm32f10x_adc.crf --depend .\flash\stm32f10x_adc.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\STM32F10x_StdPeriph_Driver\src\stm32f10x_rcc.c)(0x4FEACCEF)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\stm32f10x_rcc.o --omf_browse .\flash\stm32f10x_rcc.crf --depend .\flash\stm32f10x_rcc.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\driver\ampm\stm32\uart5.c)(0x537889F7)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\uart5.o --omf_browse .\flash\uart5.crf --depend .\flash\uart5.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart5.h)(0x537ACB05)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+F (..\..\src\dbg.c)(0x5345FA5B)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\dbg.o --omf_browse .\flash\dbg.crf --depend .\flash\dbg.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\ampm_lib\lib\keil\Output\ampm_lib.lib)(0x5370448E)()
+F (..\..\ampm_lib\gsm\gsm_hwr.c)(0x5375F89F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\gsm_hwr.o --omf_browse .\flash\gsm_hwr.crf --depend .\flash\gsm_hwr.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart1.h)(0x53788909)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\ampm_lib\gsm\at_cmd_call_parser.c)(0x53784278)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_cmd_call_parser.o --omf_browse .\flash\at_cmd_call_parser.crf --depend .\flash\at_cmd_call_parser.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x536A07A4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x537581D4)
+F (..\..\ampm_lib\gsm\at_cmd_common_parser.c)(0x5376C62A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_cmd_common_parser.o --omf_browse .\flash\at_cmd_common_parser.crf --depend .\flash\at_cmd_common_parser.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+F (..\..\ampm_lib\gsm\at_cmd_sms_parser.c)(0x538FE68E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_cmd_sms_parser.o --omf_browse .\flash\at_cmd_sms_parser.crf --depend .\flash\at_cmd_sms_parser.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x536A07A4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x537581D4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\sms\pdu.h)(0x53736F1B)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+F (..\..\ampm_lib\gsm\at_command_parser.c)(0x5386C96F)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_command_parser.o --omf_browse .\flash\at_command_parser.crf --depend .\flash\at_command_parser.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+F (..\..\ampm_lib\gsm\at_gsm_task.c)(0x537C6CC2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_gsm_task.o --omf_browse .\flash\at_gsm_task.crf --depend .\flash\at_gsm_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x537581D4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x536A07A4)
+F (..\..\ampm_lib\gsm\at_send_cmd_task.c)(0x5375834A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_send_cmd_task.o --omf_browse .\flash\at_send_cmd_task.crf --depend .\flash\at_send_cmd_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x537581D4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x536A07A4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+F (..\..\ampm_lib\gsm\modem.c)(0x5378378D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\modem.o --omf_browse .\flash\modem.crf --depend .\flash\modem.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\ampm_lib\gsm\u-blox\at_cmd_g100_parser.c)(0x53704582)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_cmd_g100_parser.o --omf_browse .\flash\at_cmd_g100_parser.crf --depend .\flash\at_cmd_g100_parser.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_time.h)(0x53704670)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x537581D4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x536A07A4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\database_app.h)(0x537635B7)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\db\db.h)(0x537042B7)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\flash_mem\sst25.h)(0x53771A78)
+F (..\..\ampm_lib\gsm\u-blox\at_u_blox_ftp_task.c)(0x538702AC)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_u_blox_ftp_task.o --omf_browse .\flash\at_u_blox_ftp_task.crf --depend .\flash\at_u_blox_ftp_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x537581D4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_ftp_task.h)(0x53688763)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x536A07A4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+F (..\..\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.c)(0x5388A77A)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\at_u_blox_gprs_task.o --omf_browse .\flash\at_u_blox_gprs_task.crf --depend .\flash\at_u_blox_gprs_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x537837FE)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53704093)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x5376C633)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x538EAF68)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x537581D4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x536A07A4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+F (..\..\ampm_lib\gsm\sms\pdu.c)(0x5373735D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\pdu.o --omf_browse .\flash\pdu.crf --depend .\flash\pdu.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gsm\sms\pdu.h)(0x53736F1B)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+F (..\..\ampm_lib\gps\keil\Output\gps_lib.lib)(0x53461D14)()
+F (..\..\ampm_lib\camera\rs485_camera.c)(0x5346144D)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\rs485_camera.o --omf_browse .\flash\rs485_camera.crf --depend .\flash\rs485_camera.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\camera\rs485_camera.h)(0x53194EEE)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\uart3.h)(0x534512A0)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_time.h)(0x53704670)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+F (..\..\ampm_lib\db\db.c)(0x5370429C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\db.o --omf_browse .\flash\db.crf --depend .\flash\db.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\db\db.h)(0x537042B7)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_time.h)(0x53704670)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\gps\gps.h)(0x53297CE6)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\ctype.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\limits.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\flash_mem\sst25.h)(0x53771A78)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\ampm_lib\flash_mem\sst25.c)(0x5376C980)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\sst25.o --omf_browse .\flash\sst25.crf --depend .\flash\sst25.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\spi.h)(0x53702C3D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\flash_mem\sst25.h)(0x53771A78)
+F (..\..\ampm_lib\accelerometer\mma7660\mma7660.c)(0x5390225C)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\mma7660.o --omf_browse .\flash\mma7660.crf --depend .\flash\mma7660.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\accelerometer\mma7660\mma7660.h)(0x53476DF2)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\i2c.h)(0x52F7837E)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\hw_config.h)(0x5386F439)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\system_config.h)(0x53904402)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\exti.h)(0x533EDB42)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\dbg.h)(0x52D3F8AA)
+F (..\..\ampm_lib\accelerometer\xl362\xl362_io.c)(0x53702E8E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\xl362_io.o --omf_browse .\flash\xl362_io.crf --depend .\flash\xl362_io.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\accelerometer\xl362\xl362_io.h)(0x53703022)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\accelerometer\xl362\XL362.h)(0x533E1D50)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\ampm\stm32\spi.h)(0x53702C3D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+F (..\..\ampm_lib\PPP\comm.c)(0x53709BAA)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\comm.o --omf_browse .\flash\comm.crf --depend .\flash\comm.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\comm.h)(0x53709BB4)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+F (..\..\ampm_lib\PPP\fcs.c)(0x4FA12F59)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\fcs.o --omf_browse .\flash\fcs.crf --depend .\flash\fcs.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+F (..\..\ampm_lib\PPP\ppp.c)(0x53709BE2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\ppp.o --omf_browse .\flash\ppp.crf --depend .\flash\ppp.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\ppp.h)(0x536E81E3)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\comm.h)(0x53709BB4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\uip_ppp.h)(0x51EB758C)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\tick.h)(0x53461600)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x522ACB76)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x536E7C2A)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\ampm_lib\PPP\xtea.c)(0x4FA12F59)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\xtea.o --omf_browse .\flash\xtea.crf --depend .\flash\xtea.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+F (..\..\ampm_lib\uip\resolv.c)(0x51DFB828)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\resolv.o --omf_browse .\flash\resolv.crf --depend .\flash\resolv.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\resolv.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x522ACB76)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x536E7C2A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+F (..\..\ampm_lib\uip\resolver.c)(0x536E83AD)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\resolver.o --omf_browse .\flash\resolver.crf --depend .\flash\resolver.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\resolver.h)(0x536E7E23)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\uip_ppp.h)(0x51EB758C)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\ppp.h)(0x536E81E3)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\comm.h)(0x53709BB4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\tick.h)(0x53461600)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x522ACB76)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x536E7C2A)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\resolv.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\ampm_lib\uip\timer.c)(0x536D1B6E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\timer.o --omf_browse .\flash\timer.crf --depend .\flash\timer.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\tick.h)(0x53461600)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\ampm_lib\uip\uip.c)(0x51EA7ADE)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\uip.o --omf_browse .\flash\uip.crf --depend .\flash\uip.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x522ACB76)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x536E7C2A)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\uip_arch.h)(0x4F98C5E6)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+F (..\..\ampm_lib\uip\uip_ppp.c)(0x536D3637)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\..\driver\STM32F10x_StdPeriph_Driver\inc -I..\..\CMSIS\CM3\CoreSupport -I..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x -I..\..\inc -I..\..\ampm_lib -I..\..\driver -I..\..\ampm_lib\gsm -I..\..\driver\ampm\stm32 -I..\..\ampm_lib\db -I..\..\ampm_lib\flash_mem -I..\..\ampm_lib\accelerometer\lis3dh -I..\..\ampm_lib\accelerometer\mma7660 -I..\..\ampm_lib\accelerometer -I..\..\ampm_lib\PPP -I..\..\ampm_lib\uip -I..\..\ampm_lib\uip-ppp-lib -I..\..\ampm_lib\gsm\sms -I..\..\ampm_lib\FATFS -I..\..\ampm_lib\flash_mem-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -o .\flash\uip_ppp.o --omf_browse .\flash\uip_ppp.crf --depend .\flash\uip_ppp.d)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\uip_ppp.h)(0x51EB758C)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\ppp.h)(0x536E81E3)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\PPP\comm.h)(0x53709BB4)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\tick.h)(0x53461600)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h)(0x5378813D)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\CoreSupport\core_cm3.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\inc\stm32f10x_conf.h)(0x4B962424)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h)(0x527EF853)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\driver\STM32F10x_StdPeriph_Driver\inc\misc.h)(0x4FEACCEF)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x522ACB76)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x536E7C2A)
+I (D:\AMPM\SVN\GT1025\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\..\..\note.txt)(0x53903AE7)()
+F (.\output\fw_version.txt)(0x539046A8)()

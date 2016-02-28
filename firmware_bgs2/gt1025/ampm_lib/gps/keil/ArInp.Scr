@@ -1,0 +1,2 @@
+--create .\Output\gps_lib.lib
+.\output\gps.o

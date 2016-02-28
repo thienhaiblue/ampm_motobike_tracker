@@ -1,0 +1,126 @@
+Dependencies for Project 'gsm_u_blox', Target 'GSM-U-BLOX': (DO NOT MODIFY !)
+F (..\at_cmd_call_parser.c)(0x53A8917D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\at_cmd_call_parser.o --omf_browse .\flash\at_cmd_call_parser.crf --depend .\flash\at_cmd_call_parser.d)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53A064EC)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53A97F34)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x53A979D2)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\common\comm.h)(0x53A119F8)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x53A86F97)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x53A041FB)
+F (..\at_cmd_common_parser.c)(0x53A97C03)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\at_cmd_common_parser.o --omf_browse .\flash\at_cmd_common_parser.crf --depend .\flash\at_cmd_common_parser.d)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53A064EC)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53A97F34)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x53A979D2)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\common\comm.h)(0x53A119F8)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x53A86F97)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x53A041FB)
+F (..\at_cmd_sms_parser.c)(0x53A97E71)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\at_cmd_sms_parser.o --omf_browse .\flash\at_cmd_sms_parser.crf --depend .\flash\at_cmd_sms_parser.d)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x53A979D2)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\common\comm.h)(0x53A119F8)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53A064EC)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53A97F34)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x53A86F97)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x53A041FB)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\sms\pdu.h)(0x53736F1B)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+F (..\at_command_parser.c)(0x539FE436)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\at_command_parser.o --omf_browse .\flash\at_command_parser.crf --depend .\flash\at_command_parser.d)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53A064EC)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53A97F34)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x53A979D2)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\common\comm.h)(0x53A119F8)
+F (..\at_gsm_task.c)(0x53A964ED)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\at_gsm_task.o --omf_browse .\flash\at_gsm_task.crf --depend .\flash\at_gsm_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x53A979D2)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\common\comm.h)(0x53A119F8)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53A064EC)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53A97F34)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x53A041FB)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x53A86F97)
+F (..\at_send_cmd_task.c)(0x53A01E9E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\at_send_cmd_task.o --omf_browse .\flash\at_send_cmd_task.crf --depend .\flash\at_send_cmd_task.d)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdarg.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\modem.h)(0x53A979D2)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\gsm_hwr.h)(0x53A01E46)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\common\comm.h)(0x53A119F8)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\data_cmp.h)(0x52F26031)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_command_parser.h)(0x53081632)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sparser.h)(0x5345FEBC)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_common_parser.h)(0x53A064EC)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_sms_parser.h)(0x53A97F34)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_cmd_call_parser.h)(0x53689DAF)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_cmd_g100_parser.h)(0x537043E9)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\u-blox\at_u_blox_gprs_task.h)(0x53688707)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_send_cmd_task.h)(0x53A041FB)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\at_gsm_task.h)(0x53A86F97)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\list.h)(0x52F26032)
+F (..\sms\pdu.c)(0x5373735D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\..\..\ampm_lib -I..\..\gsm -I..\..\common-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\ST\STM32F10x-o .\flash\pdu.o --omf_browse .\flash\pdu.crf --depend .\flash\pdu.d)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\gsm\sms\pdu.h)(0x53736F1B)
+I (C:\Keil\ARM\ARMCC\include\time.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)

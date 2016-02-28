@@ -1,0 +1,17 @@
+--cpu Cortex-M3
+".\flash\startup_stm32f10x_hd.o"
+".\flash\core_cm3.o"
+".\flash\system_stm32f10x.o"
+".\flash\stm32f10x_flash.o"
+".\flash\spi.o"
+".\flash\uart3.o"
+".\flash\ringbuf.o"
+".\flash\tick.o"
+".\flash\main.o"
+".\flash\flashprog.o"
+".\flash\proto_parser.o"
+".\flash\sst25.o"
+--library_type=microlib --strict --scatter ".\Flash\gt1025_boot_v0.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\gt1025_boot_v0.map" -o .\Flash\gt1025_boot_v0.axf

@@ -1,0 +1,11 @@
+.\debug\gps.o: ..\..\ampm_lib\gps\gps.c
+.\debug\gps.o: ..\..\ampm_lib\gps\gps.h
+.\debug\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\debug\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\debug\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\debug\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\debug\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\debug\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\debug\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\limits.h
+.\debug\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\debug\gps.o: ..\..\ampm_lib\lib/sys_tick.h

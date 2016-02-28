@@ -1,0 +1,14 @@
+--cpu Cortex-M3
+".\data_cmp.o"
+".\fcs.o"
+".\list.o"
+".\m_time.o"
+".\packet_queue.o"
+".\protocol.o"
+".\ringbuf.o"
+".\sparser.o"
+".\sys_time.o"
+--strict --scatter ".\ampm_lib.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\ampm_lib.map" -o .\ampm_lib.axf

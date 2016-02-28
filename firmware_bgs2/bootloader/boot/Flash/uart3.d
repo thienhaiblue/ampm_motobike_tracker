@@ -1,0 +1,9 @@
+.\flash\uart3.o: ..\Drivers\my_driver\uart3.c
+.\flash\uart3.o: ..\Drivers\my_driver\uart3.h
+.\flash\uart3.o: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\flash\uart3.o: ..\Libraries\CMSIS\CM3\CoreSupport\core_cm3.h
+.\flash\uart3.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\uart3.o: ..\Libraries\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\flash\uart3.o: ..\Libraries\common_lib\ringbuff\ringbuf.h
+.\flash\uart3.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\flash\uart3.o: .\Src\hw_config.h

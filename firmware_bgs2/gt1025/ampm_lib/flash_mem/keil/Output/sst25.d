@@ -1,0 +1,9 @@
+.\output\sst25.o: ..\sst25.c
+.\output\sst25.o: ..\..\..\driver\ampm\stm32\spi.h
+.\output\sst25.o: C:\Keil\ARM\Inc\ST\STM32F10x\stm32f10x.h
+.\output\sst25.o: C:\Keil\ARM\CMSIS\Include\core_cm3.h
+.\output\sst25.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\sst25.o: C:\Keil\ARM\CMSIS\Include\core_cmInstr.h
+.\output\sst25.o: C:\Keil\ARM\CMSIS\Include\core_cmFunc.h
+.\output\sst25.o: C:\Keil\ARM\Inc\ST\STM32F10x\system_stm32f10x.h
+.\output\sst25.o: ..\sst25.h

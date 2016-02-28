@@ -1,0 +1,49 @@
+*** Creating Trace Output File 'project.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\startup_stm32f10x_md.o"'
+### List of Objects: adding '"core_cm3.o"'
+### List of Objects: adding '"system_stm32f10x.o"'
+### List of Objects: adding '"i2c.o"'
+### List of Objects: adding '"exti.o"'
+### List of Objects: adding '"adc.o"'
+### List of Objects: adding '"tick.o"'
+### List of Objects: adding '"uart1.o"'
+### List of Objects: adding '"uart2.o"'
+### List of Objects: adding '"spi.o"'
+### List of Objects: adding '"i2croutines.o"'
+### List of Objects: adding '"low_power_mode.o"'
+### List of Objects: adding '"rtc.o"'
+### List of Objects: adding '"stm32f10x_flash.o"'
+### List of Objects: adding '"m_time.o"'
+### List of Objects: adding '"dbg_cfg_app.o"'
+### List of Objects: adding '"main.o"'
+### List of Objects: adding '"sys_time.o"'
+### List of Objects: adding '"system_config.o"'
+### List of Objects: adding '"at_command_parser.o"'
+### List of Objects: adding '"db.o"'
+### List of Objects: adding '"modem.o"'
+### List of Objects: adding '"hiduser.o"'
+### List of Objects: adding '"usbcore.o"'
+### List of Objects: adding '"usbdesc.o"'
+### List of Objects: adding '"usbhw.o"'
+### List of Objects: adding '"usbuser.o"'
+### List of Objects: adding '"accelerometer.o"'
+### List of Objects: adding '"ringbuf.o"'
+### List of Objects: adding '"sst25.o"'
+### List of Objects: adding '"gps.o"'
+### ADS-LD Command completed:
+--cpu Cortex-M3 ".\startup_stm32f10x_md.o" "core_cm3.o" "system_stm32f10x.o" "i2c.o" "exti.o" "adc.o" "tick.o" "uart1.o" "uart2.o" "spi.o" "i2croutines.o" "low_power_mode.o" "rtc.o" "stm32f10x_flash.o" "m_time.o" "dbg_cfg_app.o" "main.o" "sys_time.o" "system_config.o" "at_command_parser.o" "db.o" "modem.o" "hiduser.o" "usbcore.o" "usbdesc.o" "usbhw.o" "usbuser.o" "accelerometer.o" "ringbuf.o" "sst25.o" "gps.o" --library_type=microlib --strict --scatter "project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\project.map" -o "project.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: 'project.axf'
+### ADS-LD Command File: 'project.lnp'
+### Checking for dirty Components...
+### Creating CmdFile 'project.lnp', Handle=0x00000604
+### Writing '.lnp' file
+### ADS-LD Command file 'project.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 2 errors
+### Updating obj list
+### LDADS_file() completed.

@@ -1,0 +1,645 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="settingTabPage.Text" xml:space="preserve">
+    <value>Cấu hình</value>
+  </data>
+  <data name="detailReportTabPage.Text" xml:space="preserve">
+    <value>Báo cáo chi tiết</value>
+  </data>
+  <data name="grbOtherSettings.Text" xml:space="preserve">
+    <value>Tùy chọn khác</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="autoSecurityTimeTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 184</value>
+  </data>
+  <data name="label8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 187</value>
+  </data>
+  <data name="label8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>153, 13</value>
+  </data>
+  <data name="label8.Text" xml:space="preserve">
+    <value>Chu kỳ tự dộng bật chống trộm</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>265, 55</value>
+  </data>
+  <data name="groupBox1.Text" xml:space="preserve">
+    <value>Chống trộm</value>
+  </data>
+  <data name="autoSecurityOnChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 17</value>
+  </data>
+  <data name="autoSecurityOnChkBox.Text" xml:space="preserve">
+    <value>Tự động bật chống trộm</value>
+  </data>
+  <data name="callActionChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 17</value>
+  </data>
+  <data name="callActionChkBox.Text" xml:space="preserve">
+    <value>Gọi điện</value>
+  </data>
+  <data name="manualSecurityOnChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>98, 17</value>
+  </data>
+  <data name="manualSecurityOnChkBox.Text" xml:space="preserve">
+    <value>Bật chống trộm</value>
+  </data>
+  <data name="sendSMSActionChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>83, 17</value>
+  </data>
+  <data name="sendSMSActionChkBox.Text" xml:space="preserve">
+    <value>Gửi tin nhắn</value>
+  </data>
+  <data name="label15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>112, 216</value>
+  </data>
+  <data name="label15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 13</value>
+  </data>
+  <data name="label15.Text" xml:space="preserve">
+    <value>* Thời gian tính bằng đơn vị giây</value>
+  </data>
+  <data name="powerOffDelayTimeTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 158</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="label16.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 156</value>
+  </data>
+  <data name="label16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 26</value>
+  </data>
+  <data name="label16.Text" xml:space="preserve">
+    <value>Thời gian tách khỏi nguồn ngoài khi tắt khóa xe</value>
+  </data>
+  <data name="speedEngineOffTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 132</value>
+  </data>
+  <data name="label17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 135</value>
+  </data>
+  <data name="label17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>81, 13</value>
+  </data>
+  <data name="label17.Text" xml:space="preserve">
+    <value>Vận tốc tắt máy</value>
+  </data>
+  <data name="sosKeyPressTimeTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 80</value>
+  </data>
+  <data name="sosKeyPressPeriodTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>183, 106</value>
+  </data>
+  <data name="label9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 109</value>
+  </data>
+  <data name="label9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>143, 13</value>
+  </data>
+  <data name="label9.Text" xml:space="preserve">
+    <value>Thời gian kiểm tra phím SOS</value>
+  </data>
+  <data name="label10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>9, 83</value>
+  </data>
+  <data name="label10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>89, 13</value>
+  </data>
+  <data name="label10.Text" xml:space="preserve">
+    <value>Số lần nhấn SOS</value>
+  </data>
+  <data name="grbFeatureSet.Text" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="label19.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="label19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>110, 30</value>
+  </data>
+  <data name="label19.Text" xml:space="preserve">
+    <value>Thời gian kiểm tra tài khoản</value>
+  </data>
+  <data name="accountAlarmCheckTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>300, 48</value>
+  </data>
+  <data name="label18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>208, 178</value>
+  </data>
+  <data name="label18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>162, 13</value>
+  </data>
+  <data name="label18.Text" xml:space="preserve">
+    <value>* Thời gian tính bằng đơn vị giây</value>
+  </data>
+  <data name="removePowerWarningChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 17</value>
+  </data>
+  <data name="removePowerWarningChkBox.Text" xml:space="preserve">
+    <value>Bật cảnh báo mất nguồn ngoài</value>
+  </data>
+  <data name="lowPowerWarningChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>172, 17</value>
+  </data>
+  <data name="lowPowerWarningChkBox.Text" xml:space="preserve">
+    <value>Bật cảnh báo nguồn ngoài yếu</value>
+  </data>
+  <data name="label20.Location" type="System.Drawing.Point, System.Drawing">
+    <value>244, 149</value>
+  </data>
+  <data name="lowBatteryWarningChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>161, 17</value>
+  </data>
+  <data name="lowBatteryWarningChkBox.Text" xml:space="preserve">
+    <value>Bật cảnh báo nguồn Pin yếu</value>
+  </data>
+  <data name="label14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>170, 13</value>
+  </data>
+  <data name="label14.Text" xml:space="preserve">
+    <value>Chu kỳ cảnh báo mất nguồn ngoài</value>
+  </data>
+  <data name="batteryLowWarningLevelTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 148</value>
+  </data>
+  <data name="removePowerWarningPeriodTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 96</value>
+  </data>
+  <data name="label13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>164, 13</value>
+  </data>
+  <data name="label13.Text" xml:space="preserve">
+    <value>Ngưỡng cảnh báo nguồn Pin yếu</value>
+  </data>
+  <data name="label11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>159, 13</value>
+  </data>
+  <data name="label11.Text" xml:space="preserve">
+    <value>Chu kỳ cảnh báo nguồn Pin yếu</value>
+  </data>
+  <data name="batteryLowWarningPeriodTxt.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 122</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Gửi Tin Nhắn SMS</value>
+  </data>
+  <data name="sendSMSBtn.Text" xml:space="preserve">
+    <value>Gửi SMS</value>
+  </data>
+  <data name="label6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>36, 13</value>
+  </data>
+  <data name="label6.Text" xml:space="preserve">
+    <value>Tới số</value>
+  </data>
+  <data name="grbDrivingSettings.Text" xml:space="preserve">
+    <value>Tùy chọn lái xe</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 98</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 13</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Số công-tơ-mét gốc</value>
+  </data>
+  <data name="baseMileageTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 95</value>
+  </data>
+  <data name="totalDrivingTimeLimitTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 69</value>
+  </data>
+  <data name="drivingTimeLimitTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 43</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 20</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>116, 13</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Tốc độ giới hạn (km/h)</value>
+  </data>
+  <data name="speedLimitTxtBox.Location" type="System.Drawing.Point, System.Drawing">
+    <value>226, 17</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 46</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>178, 13</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Thời gian lái xe liên tục giới hạn (giờ)</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>12, 72</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>202, 13</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Tổng thời gian lái xe liên tục giới hạn (giờ)</value>
+  </data>
+  <data name="groupBox10.Text" xml:space="preserve">
+    <value>Nâng cấp firmware</value>
+  </data>
+  <data name="runAppBtn.Text" xml:space="preserve">
+    <value>Chạy CT</value>
+  </data>
+  <data name="downloadFirmwareBtn.Text" xml:space="preserve">
+    <value>Ghi</value>
+  </data>
+  <data name="readFirmwareVersionBtn.Text" xml:space="preserve">
+    <value>Đọc</value>
+  </data>
+  <data name="grbAnalogInput.Text" xml:space="preserve">
+    <value>Đầu vào cảm biến</value>
+  </data>
+  <data name="label31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>67, 13</value>
+  </data>
+  <data name="label31.Text" xml:space="preserve">
+    <value>Biên dưới (V)</value>
+  </data>
+  <data name="label37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>65, 13</value>
+  </data>
+  <data name="label37.Text" xml:space="preserve">
+    <value>Biên trên (V)</value>
+  </data>
+  <data name="analogPercentageModeChkBox.Size" type="System.Drawing.Size, System.Drawing">
+    <value>77, 17</value>
+  </data>
+  <data name="analogPercentageModeChkBox.Text" xml:space="preserve">
+    <value>Gửi theo %</value>
+  </data>
+  <data name="grbAuthorizedUser.Text" xml:space="preserve">
+    <value>Danh sách tài xế</value>
+  </data>
+  <data name="lblUserNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>50, 13</value>
+  </data>
+  <data name="lblUserNumber.Text" xml:space="preserve">
+    <value>Tài xế số</value>
+  </data>
+  <data name="lblAuthorizedUserName.Size" type="System.Drawing.Size, System.Drawing">
+    <value>26, 13</value>
+  </data>
+  <data name="lblAuthorizedUserName.Text" xml:space="preserve">
+    <value>Tên</value>
+  </data>
+  <data name="lblAuthorizedPhoneNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lblAuthorizedPhoneNumber.Text" xml:space="preserve">
+    <value>Số điện thoại</value>
+  </data>
+  <data name="grbVehicleParameter.Text" xml:space="preserve">
+    <value>Thông số xe</value>
+  </data>
+  <data name="label7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>90, 13</value>
+  </data>
+  <data name="label7.Text" xml:space="preserve">
+    <value>Số máy khẩn cấp</value>
+  </data>
+  <data name="pulseSpeedSourceRBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 173</value>
+  </data>
+  <data name="pulseSpeedSourceRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>103, 17</value>
+  </data>
+  <data name="pulseSpeedSourceRBtn.Text" xml:space="preserve">
+    <value>Cảm biến tốc độ</value>
+  </data>
+  <data name="gpsSpeedSourceRBtn.Location" type="System.Drawing.Point, System.Drawing">
+    <value>105, 154</value>
+  </data>
+  <data name="lblSpeedSource.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lblSpeedSource.Text" xml:space="preserve">
+    <value>Lấy tốc độ từ</value>
+  </data>
+  <data name="lblTyreRate.AutoSize" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="lblTyreRate.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 29</value>
+  </data>
+  <data name="lblTyreRate.Text" xml:space="preserve">
+    <value>Hệ số cảm biến tốc độ</value>
+  </data>
+  <data name="lblCarNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>42, 13</value>
+  </data>
+  <data name="lblCarNumber.Text" xml:space="preserve">
+    <value>Biển số</value>
+  </data>
+  <data name="lblTrackerID.Size" type="System.Drawing.Size, System.Drawing">
+    <value>70, 13</value>
+  </data>
+  <data name="lblTrackerID.Text" xml:space="preserve">
+    <value>ID bộ quản lý</value>
+  </data>
+  <data name="lblVINNumber.Size" type="System.Drawing.Size, System.Drawing">
+    <value>41, 13</value>
+  </data>
+  <data name="lblVINNumber.Text" xml:space="preserve">
+    <value>Số VIN</value>
+  </data>
+  <data name="grbServerParameter.Text" xml:space="preserve">
+    <value>Thông số máy chủ</value>
+  </data>
+  <data name="lblServerSelection.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 13</value>
+  </data>
+  <data name="lblServerSelection.Text" xml:space="preserve">
+    <value>Chọn máy chủ</value>
+  </data>
+  <data name="serverUseDomainRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 17</value>
+  </data>
+  <data name="serverUseDomainRBtn.Text" xml:space="preserve">
+    <value>Tên miền</value>
+  </data>
+  <data name="serverUseIpRBtn.Size" type="System.Drawing.Size, System.Drawing">
+    <value>71, 17</value>
+  </data>
+  <data name="serverUseIpRBtn.Text" xml:space="preserve">
+    <value>Địa chỉ IP</value>
+  </data>
+  <data name="lblSecondaryServer.Size" type="System.Drawing.Size, System.Drawing">
+    <value>69, 13</value>
+  </data>
+  <data name="lblSecondaryServer.Text" xml:space="preserve">
+    <value>Máy chủ phụ</value>
+  </data>
+  <data name="lblPort.Size" type="System.Drawing.Size, System.Drawing">
+    <value>32, 13</value>
+  </data>
+  <data name="lblPort.Text" xml:space="preserve">
+    <value>Cổng</value>
+  </data>
+  <data name="label39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>79, 13</value>
+  </data>
+  <data name="label39.Text" xml:space="preserve">
+    <value>Máy chủ chính</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="lblIntevalTime.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblIntevalTime.Size" type="System.Drawing.Size, System.Drawing">
+    <value>54, 13</value>
+  </data>
+  <data name="lblIntevalTime.Text" xml:space="preserve">
+    <value>Chu kì gửi</value>
+  </data>
+  <data name="exportToKMLBtn.Text" xml:space="preserve">
+    <value>Xuất ra file KML</value>
+  </data>
+  <data name="readReportBtn.Text" xml:space="preserve">
+    <value>Đọc báo cáo</value>
+  </data>
+  <data name="textBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>225, 17</value>
+  </data>
+  <data name="label12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>59, 13</value>
+  </data>
+  <data name="label12.Text" xml:space="preserve">
+    <value>Chỉ số cuối</value>
+  </data>
+  <data name="label5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>58, 13</value>
+  </data>
+  <data name="label5.Text" xml:space="preserve">
+    <value>Chỉ số đầu</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.HeaderText" xml:space="preserve">
+    <value>Stt</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.MinimumWidth" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="dataGridViewTextBoxColumn12.Width" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="clearLogBtn.Text" xml:space="preserve">
+    <value>Xóa Log</value>
+  </data>
+  <data name="fileToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>60, 20</value>
+  </data>
+  <data name="fileToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Quản lý</value>
+  </data>
+  <data name="skinToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="skinToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Giao diện</value>
+  </data>
+  <data name="blueToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Xanh</value>
+  </data>
+  <data name="blackToolStripMenuItem.Text" xml:space="preserve">
+    <value>Đ&amp;en</value>
+  </data>
+  <data name="silverToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Bạc</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="defaultToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Mặc định</value>
+  </data>
+  <data name="exitToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>124, 22</value>
+  </data>
+  <data name="exitToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Thoát</value>
+  </data>
+  <data name="languageToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>73, 20</value>
+  </data>
+  <data name="languageToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Ngôn ngữ</value>
+  </data>
+  <data name="englishToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="englishToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tiếng &amp;Anh</value>
+  </data>
+  <data name="vietnameseToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>129, 22</value>
+  </data>
+  <data name="vietnameseToolStripMenuItem.Text" xml:space="preserve">
+    <value>Tiếng &amp;Việt</value>
+  </data>
+  <data name="helpToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>64, 20</value>
+  </data>
+  <data name="helpToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Trợ giúp</value>
+  </data>
+  <data name="registerToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>141, 22</value>
+  </data>
+  <data name="aboutToolStripMenuItem.Text" xml:space="preserve">
+    <value>&amp;Về chúng tôi</value>
+  </data>
+  <data name="openPortBtn.Text" xml:space="preserve">
+    <value>Mở cổng</value>
+  </data>
+  <data name="printReportBtn.Text" xml:space="preserve">
+    <value>In báo cáo</value>
+  </data>
+  <data name="defaultSettingsBtn.Text" xml:space="preserve">
+    <value>Cấu hình mặc định</value>
+  </data>
+  <data name="loadSettingsBtn.Text" xml:space="preserve">
+    <value>Chọn cấu hình đã lưu</value>
+  </data>
+  <data name="saveSettingsBtn.Text" xml:space="preserve">
+    <value>Lưu cấu hình</value>
+  </data>
+  <data name="writeSettingsBtn.Text" xml:space="preserve">
+    <value>Ghi cấu hình</value>
+  </data>
+  <data name="readSettingsBtn.Text" xml:space="preserve">
+    <value>Đọc cấu hình</value>
+  </data>
+</root>

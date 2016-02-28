@@ -1,0 +1,17 @@
+.\flash\uart1.o: ..\..\driver\ampm\stm32\uart1.c
+.\flash\uart1.o: ..\..\driver\ampm\stm32\uart1.h
+.\flash\uart1.o: ..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\flash\uart1.o: ..\..\CMSIS\CM3\CoreSupport\core_cm3.h
+.\flash\uart1.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\uart1.o: ..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\system_stm32f10x.h
+.\flash\uart1.o: ..\..\inc\stm32f10x_conf.h
+.\flash\uart1.o: ..\..\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_adc.h
+.\flash\uart1.o: ..\..\CMSIS\CM3\DeviceSupport\ST\STM32F10x\stm32f10x.h
+.\flash\uart1.o: ..\..\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_dma.h
+.\flash\uart1.o: ..\..\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_flash.h
+.\flash\uart1.o: ..\..\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_gpio.h
+.\flash\uart1.o: ..\..\driver\STM32F10x_StdPeriph_Driver\inc\stm32f10x_rcc.h
+.\flash\uart1.o: ..\..\driver\STM32F10x_StdPeriph_Driver\inc\misc.h
+.\flash\uart1.o: ..\..\driver\ampm\stm32\uart1.h
+.\flash\uart1.o: ..\..\ampm_lib\lib/ringbuf.h
+.\flash\uart1.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h

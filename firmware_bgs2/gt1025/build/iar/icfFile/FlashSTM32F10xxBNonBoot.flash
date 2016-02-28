@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_device>
+  <exe>$TOOLKIT_DIR$\config\flashloader\ST\FlashSTM32F10xxxRAM16K.out</exe>
+  <page>2</page>
+  <block>128 0x400</block>
+  <flash_base>0x08000000</flash_base>
+  <macro>$TOOLKIT_DIR$\config\flashloader\ST\FlashSTM32F10xxx.mac</macro>
+  <aggregate>1</aggregate>
+</flash_device>

@@ -1,0 +1,3 @@
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=GSM/GPS|SchDesignator=GSM/GPS|FileName=GSM_GPS.SCHDOC|SymbolType=Normal|RawFileName=GSM_GPS.SCHDOC|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=SheetSymbol|SourceDocument=Main.SchDoc|Designator=Power Supply|SchDesignator=Power Supply|FileName=PSU.SCHDOC|SymbolType=Normal|RawFileName=PSU.SCHDOC|DesignItemId= |SourceLibraryName= |ObjectKind=Sheet Symbol
+Record=TopLevelDocument|FileName=Main.SchDoc

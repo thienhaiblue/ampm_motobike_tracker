@@ -1,0 +1,61 @@
+Dependencies for Project 'uip-ppp-lib', Target 'uip-pp-lib': (DO NOT MODIFY !)
+F (..\uip\resolv.c)(0x51DFB828)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\PPP -I..\uip -I..\uip-ppp-lib -I..\..\ampm_lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\output\resolv.o --omf_browse .\output\resolv.crf --depend .\output\resolv.d)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip\resolv.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x53A074C6)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x53A9054B)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+F (..\uip\timer.c)(0x536D1B6E)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\PPP -I..\uip -I..\uip-ppp-lib -I..\..\ampm_lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\output\timer.o --omf_browse .\output\timer.crf --depend .\output\timer.d)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\tick.h)(0x53A97770)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\uip\uip.c)(0x53A061CB)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\PPP -I..\uip -I..\uip-ppp-lib -I..\..\ampm_lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\output\uip.o --omf_browse .\output\uip.crf --depend .\output\uip.d)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x53A074C6)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x53A9054B)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip\uip_arch.h)(0x4F98C5E6)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+F (..\uip\uip_ppp.c)(0x53A130B2)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\PPP -I..\uip -I..\uip-ppp-lib -I..\..\ampm_lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\output\uip_ppp.o --omf_browse .\output\uip_ppp.crf --depend .\output\uip_ppp.d)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip\uip_ppp.h)(0x53A06223)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\PPP\ppp.h)(0x53A97748)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\PPP\comm.h)(0x00000000)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\tick.h)(0x53A97770)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x53A074C6)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x53A9054B)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\PPP\fcs.c)(0x4FA12F59)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\PPP -I..\uip -I..\uip-ppp-lib -I..\..\ampm_lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\output\fcs.o --omf_browse .\output\fcs.crf --depend .\output\fcs.d)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+F (..\PPP\ppp.c)(0x53A86E23)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\PPP -I..\uip -I..\uip-ppp-lib -I..\..\ampm_lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\output\ppp.o --omf_browse .\output\ppp.crf --depend .\output\ppp.d)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\PPP\ppp.h)(0x53A97748)
+I (C:\Keil\ARM\ARMCC\include\string.h)(0x534572ED)
+I (C:\Keil\ARM\ARMCC\include\stdio.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\PPP\fcs.h)(0x4F98C5E6)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\ringbuf.h)(0x52F25ACB)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C7C554)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C7C554)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\PPP\comm.h)(0x00000000)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip\uip_ppp.h)(0x53A06223)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip\timer.h)(0x536D14A8)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\tick.h)(0x53A97770)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip\uip.h)(0x4F9ED393)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uipopt.h)(0x53A074C6)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\uip-ppp-lib\uip-conf.h)(0x53A9054B)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\lib\sys_tick.h)(0x534607B1)
+F (..\PPP\xtea.c)(0x4FA12F59)(-c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork -I..\PPP -I..\uip -I..\uip-ppp-lib -I..\..\ampm_lib-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\NXP\LPC17xx-o .\output\xtea.o --omf_browse .\output\xtea.crf --depend .\output\xtea.d)
+I (D:\AMPM\SVN\VT1000\trunk\firmware\gt1025\ampm_lib\PPP\typedef.h)(0x4F98C3FC)

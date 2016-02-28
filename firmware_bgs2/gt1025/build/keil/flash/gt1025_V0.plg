@@ -1,0 +1,87 @@
+Build target 'GT1025_RELEASE'
+linking...
+Program Size: Code=75052 RO-data=1872 RW-data=1076 ZI-data=13076  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output .\output\gt1025_V0.bin .\flash\gt1025_V0.axf
+".\flash\gt1025_V0.axf" - 0 Errors, 0 Warning(s).
+Load "D:\\AMPM\\SVN\\GT502W\\trunk\\firmware\\firmware_bgs2\\gt1025\\build\\keil\\flash\\gt1025_V0.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'GT1025_RELEASE'
+compiling at_gsm_task.c...
+linking...
+Program Size: Code=75072 RO-data=1872 RW-data=1076 ZI-data=13076  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output .\output\gt1025_V0.bin .\flash\gt1025_V0.axf
+".\flash\gt1025_V0.axf" - 0 Errors, 0 Warning(s).
+Load "D:\\AMPM\\SVN\\GT502W\\trunk\\firmware\\firmware_bgs2\\gt1025\\build\\keil\\flash\\gt1025_V0.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'GT1025_RELEASE'
+compiling at_gsm_task.c...
+linking...
+Program Size: Code=75052 RO-data=1872 RW-data=1076 ZI-data=13076  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output .\output\gt1025_V0.bin .\flash\gt1025_V0.axf
+".\flash\gt1025_V0.axf" - 0 Errors, 0 Warning(s).
+Load "D:\\AMPM\\SVN\\GT502W\\trunk\\firmware\\firmware_bgs2\\gt1025\\build\\keil\\flash\\gt1025_V0.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'GT1025_RELEASE'
+linking...
+Program Size: Code=75052 RO-data=1872 RW-data=1076 ZI-data=13076  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output .\output\gt1025_V0.bin .\flash\gt1025_V0.axf
+".\flash\gt1025_V0.axf" - 0 Errors, 0 Warning(s).
+Load "D:\\AMPM\\SVN\\GT502W\\trunk\\firmware\\firmware_bgs2\\gt1025\\build\\keil\\flash\\gt1025_V0.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'GT1025_RELEASE'
+compiling at_gsm_task.c...
+linking...
+Program Size: Code=75052 RO-data=1872 RW-data=1076 ZI-data=13076  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output .\output\gt1025_V0.bin .\flash\gt1025_V0.axf
+".\flash\gt1025_V0.axf" - 0 Errors, 0 Warning(s).
+Load "D:\\AMPM\\SVN\\GT502W\\trunk\\firmware\\firmware_bgs2\\gt1025\\build\\keil\\flash\\gt1025_V0.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'GT1025_RELEASE'
+compiling uart1.c...
+linking...
+Program Size: Code=75048 RO-data=1872 RW-data=1076 ZI-data=13076  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output .\output\gt1025_V0.bin .\flash\gt1025_V0.axf
+".\flash\gt1025_V0.axf" - 0 Errors, 0 Warning(s).
+Load "D:\\AMPM\\SVN\\GT502W\\trunk\\firmware\\firmware_bgs2\\gt1025\\build\\keil\\flash\\gt1025_V0.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'GT1025_RELEASE'
+compiling uart1.c...
+compiling at_gsm_task.c...
+linking...
+Program Size: Code=75032 RO-data=1872 RW-data=1076 ZI-data=13076  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output .\output\gt1025_V0.bin .\flash\gt1025_V0.axf
+".\flash\gt1025_V0.axf" - 0 Errors, 0 Warning(s).
+Load "D:\\AMPM\\SVN\\GT502W\\trunk\\firmware\\firmware_bgs2\\gt1025\\build\\keil\\flash\\gt1025_V0.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'GT1025_RELEASE'
+compiling at_gsm_task.c...
+linking...
+Program Size: Code=75032 RO-data=1872 RW-data=1076 ZI-data=13076  
+FromELF: creating hex file...
+After Build - User command #1: fromelf --bin --output .\output\gt1025_V0.bin .\flash\gt1025_V0.axf
+".\flash\gt1025_V0.axf" - 0 Errors, 0 Warning(s).
+Load "D:\\AMPM\\SVN\\GT502W\\trunk\\firmware\\firmware_bgs2\\gt1025\\build\\keil\\flash\\gt1025_V0.axf" 
+Erase Done.
+Programming Done.
+Verify OK.

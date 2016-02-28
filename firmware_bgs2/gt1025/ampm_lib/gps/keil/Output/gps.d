@@ -1,0 +1,11 @@
+.\output\gps.o: ..\gps.c
+.\output\gps.o: ..\gps.h
+.\output\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\output\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\output\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\output\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\output\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\ctype.h
+.\output\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\output\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\limits.h
+.\output\gps.o: C:\Keil\ARM\ARMCC\bin\..\include\math.h
+.\output\gps.o: ..\..\..\ampm_lib\lib/sys_tick.h

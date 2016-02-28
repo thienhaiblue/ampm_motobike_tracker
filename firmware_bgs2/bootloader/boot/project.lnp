@@ -1,0 +1,4 @@
+--cpu Cortex-M3 ".\startup_stm32f10x_md.o" "core_cm3.o" "system_stm32f10x.o" "i2c.o" "exti.o" "adc.o" "tick.o" "uart1.o" "uart2.o" "spi.o" "i2croutines.o" "low_power_mode.o" "rtc.o" "stm32f10x_flash.o" "m_time.o" "dbg_cfg_app.o" "main.o" "sys_time.o" "system_config.o" "at_command_parser.o" "db.o" "modem.o" "hiduser.o" "usbcore.o" "usbdesc.o" "usbhw.o" "usbuser.o" "accelerometer.o" "ringbuf.o" "sst25.o" "gps.o" --library_type=microlib --strict --scatter "project.sct" 
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\project.map" -o "project.axf"

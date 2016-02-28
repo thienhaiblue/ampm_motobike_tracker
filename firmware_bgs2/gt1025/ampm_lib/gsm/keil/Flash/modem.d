@@ -1,0 +1,10 @@
+.\flash\modem.o: ..\modem.c
+.\flash\modem.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash\modem.o: C:\Keil\ARM\ARMCC\bin\..\include\stdio.h
+.\flash\modem.o: C:\Keil\ARM\ARMCC\bin\..\include\string.h
+.\flash\modem.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\flash\modem.o: C:\Keil\ARM\ARMCC\bin\..\include\stdarg.h
+.\flash\modem.o: ..\modem.h
+.\flash\modem.o: ..\gsm_hwr.h
+.\flash\modem.o: ..\..\..\ampm_lib\lib/ringbuf.h
+.\flash\modem.o: ..\..\common\comm.h
