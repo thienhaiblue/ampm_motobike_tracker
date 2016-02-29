@@ -606,16 +606,6 @@
               <FilePath>..\..\ampm_lib\uip\resolver.c</FilePath>
             </File>
             <File>
-              <FileName>ampm_lib.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\..\ampm_lib\lib\keil\Output\ampm_lib.lib</FilePath>
-            </File>
-            <File>
-              <FileName>uip-ppp-lib.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\..\ampm_lib\uip-ppp-lib\Output\uip-ppp-lib.lib</FilePath>
-            </File>
-            <File>
               <FileName>resolv.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\ampm_lib\uip\resolv.c</FilePath>
@@ -659,6 +649,46 @@
               <FileName>sys_time.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\ampm_lib\lib\sys_time.c</FilePath>
+            </File>
+            <File>
+              <FileName>data_cmp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\data_cmp.c</FilePath>
+            </File>
+            <File>
+              <FileName>encoding.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\encoding.c</FilePath>
+            </File>
+            <File>
+              <FileName>list.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\list.c</FilePath>
+            </File>
+            <File>
+              <FileName>packet_queue.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\packet_queue.c</FilePath>
+            </File>
+            <File>
+              <FileName>protocol.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\protocol.c</FilePath>
+            </File>
+            <File>
+              <FileName>ringbuf.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\ringbuf.c</FilePath>
+            </File>
+            <File>
+              <FileName>sparser.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\sparser.c</FilePath>
+            </File>
+            <File>
+              <FileName>sys_tick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\sys_tick.c</FilePath>
             </File>
           </Files>
         </Group>
@@ -1382,16 +1412,6 @@
               <FilePath>..\..\ampm_lib\uip\resolver.c</FilePath>
             </File>
             <File>
-              <FileName>ampm_lib.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\..\ampm_lib\lib\keil\Output\ampm_lib.lib</FilePath>
-            </File>
-            <File>
-              <FileName>uip-ppp-lib.lib</FileName>
-              <FileType>4</FileType>
-              <FilePath>..\..\ampm_lib\uip-ppp-lib\Output\uip-ppp-lib.lib</FilePath>
-            </File>
-            <File>
               <FileName>resolv.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\ampm_lib\uip\resolv.c</FilePath>
@@ -1435,6 +1455,46 @@
               <FileName>sys_time.c</FileName>
               <FileType>1</FileType>
               <FilePath>..\..\ampm_lib\lib\sys_time.c</FilePath>
+            </File>
+            <File>
+              <FileName>data_cmp.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\data_cmp.c</FilePath>
+            </File>
+            <File>
+              <FileName>encoding.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\encoding.c</FilePath>
+            </File>
+            <File>
+              <FileName>list.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\list.c</FilePath>
+            </File>
+            <File>
+              <FileName>packet_queue.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\packet_queue.c</FilePath>
+            </File>
+            <File>
+              <FileName>protocol.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\protocol.c</FilePath>
+            </File>
+            <File>
+              <FileName>ringbuf.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\ringbuf.c</FilePath>
+            </File>
+            <File>
+              <FileName>sparser.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\sparser.c</FilePath>
+            </File>
+            <File>
+              <FileName>sys_tick.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>..\..\ampm_lib\lib\sys_tick.c</FilePath>
             </File>
           </Files>
         </Group>

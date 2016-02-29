@@ -3,21 +3,27 @@
     <META http-equiv="Content-Type" content="text/html">
         <style type="text/css">
     		h1, h2, h3, h4, h5, h6 { 
-    			font-family : sans-serif;
-    			color : white;
-    			background-color : #21489e;
+    		font-family : 'segoe-ui',arial,sans-serif;
+    		font-size:15pt;
+    		font-weight:normal;
+    		line-height:40px;
+    		color : #000;
+    		background-color : #dedede;
     			padding: 0.3em;
     		}
     		body { 
     			font-family : verdana;
+                        background: #f1f1f1;
+			font-size:13px;
     		}
     		td, th {  
     			padding: 0.5em;
     			text-align : left;
     			width: auto;	
+    			border:1px solid #DEDEDE;
     		}
     		th { 
-    			background-color : #A6CAF0;
+    			background-color : #DEDEDE;
     		
     		}
     		th.column1, td.column1 { 
@@ -26,6 +32,8 @@
     		}
     		table { 
     			width : 100%; 
+    			border-collapse: collapse;
+    			font-size:13px;
     		}
     		.front_matter, .front_matter_column1, .front_matter_column2, .front_matter_column3 {
     			padding-top : 0.1em;
@@ -54,13 +62,13 @@
     			font-weight : bold;
     		}	
     		tr.onmouseout_odd { 
-    			background-color : #EEEEE0 
+    			/*background-color : #EEEEE0 */
     		}
     		tr.onmouseout_even { 
-    			background-color : #F3F3E3   
+    			/*background-color : #F3F3E3   */
     		}
     		tr.onmouseover_odd, tr.onmouseover_even { 
-    			background-color : lightYellow 
+    			background-color : #FFF;
     		} 
     		a:link, a:visited, .q a:link,.q a:active,.q {
     			color: #21489e; 
@@ -69,9 +77,12 @@
     			color: #008000 
     		}
     		a:link.customize, a:visited.customize {
-    			color: #C0C0C0;
     			position: absolute; 
-    			right: 10px;
+    			right: 16px; top: 30px;
+    			font-family:'segoe ui',arial,tahoma,sans-serif;
+    			text-decoration:underline;
+    			font-size:11px;
+    			color:#0066cc;
     		}	
     		p.contents_level1 {
     			font-weight : bold;
@@ -83,29 +94,49 @@
     			left : 20px;
     			margin : 0.5em;
     		}
+
+ 			HR{
+ 				border-collapse:collapse;
+ 				border:none;
+ 				border-top:1px solid #dedede;
+ 			}
+ 	</style>
+
+ 		<style type="text/css" media="print">
+ 			body{
+ 				background:#fff;
+ 			}
+
+ 			a:link.customize{
+ 				display:none;
+ 			}
+
+ 			table,th,td,hr{
+ 				border-color:#999;
+ 				background:#fff;
+ 			}
     	</style>
     </head>
     
     <body>
-        <img ALT="Altium" src="file://C:\PROGRAM FILES (X86)\ALTIUM DESIGNER SUMMER 09\Templates\AD-rgb_logo_223x64.gif">
         <a href="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=General" class="customize"><acronym title="dxpprocess://Client:SetupPreferences?Server=PCB|PageName=General">Reporting Options</acronym></a>
-        <h1>File in Newer Format</h1>
+        <h1>File in Previous Format</h1>
         
         <table class="front_matter">
             <tr class="front_matter">
             <td class="front_matter_column1">Date</td>
             <td class="front_matter_column2">:</td>
-            <td class="front_matter_column3">11/2/2014</td>
+            <td class="front_matter_column3">2/29/2016</td>
             </tr>
             <tr class="front_matter">
             <td class="front_matter_column1">Time</td>
             <td class="front_matter_column2">:</td>
-            <td class="front_matter_column3">9:09:19 AM</td>
+            <td class="front_matter_column3">12:29:56 AM</td>
             </tr>
             <tr class="front_matter">
             <td class="front_matter_column1">Filename</td>
             <td class="front_matter_column2">:</td>
-            <td class="front_matter_column3"><a href="file://D:\AMPM\SVN\GT502W\trunk\hardware\GT502_BGS2\GT502W_BGS2.PcbDoc" class="file"><acronym title="D:\AMPM\SVN\GT502W\trunk\hardware\GT502_BGS2\GT502W_BGS2.PcbDoc">D:\AMPM\SVN\GT502W\trunk\hardware\GT502_BGS2\GT502W_BGS2.PcbDoc</acronym></a></td>
+            <td class="front_matter_column3"><a href="file://E:\AMPM\GIT\ampm_motobike_tracker\hardware\GT502_BGS2\GT502W_BGS2.PcbDoc" class="file"><acronym title="E:\AMPM\GIT\ampm_motobike_tracker\hardware\GT502_BGS2\GT502W_BGS2.PcbDoc">E:\AMPM\GIT\ampm_motobike_tracker\hardware\GT502_BGS2\GT502W_BGS2.PcbDoc</acronym></a></td>
             </tr>
         </table>
         
@@ -118,35 +149,15 @@
             </tr>
     
             <tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
-                <td class="column1">Release 10</td>
-                <td class="column2"><b>CAUTION</b> - New Custom Grids and Guides were introduced. Be aware that your design might contain Custom Grids and Guides that cannot be read in previous versions. </td>
-            </tr>
-            <tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
-                <td class="column1">Release 10</td>
-                <td class="column2"><b>CAUTION</b> - New Structured Clusters were introduced. Be aware that your design might contain Structured Clusters that cannot be read in previous versions. </td>
-            </tr>
-            <tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
-                <td class="column1">Release 10</td>
-                <td class="column2"><b>CAUTION</b> - New PCB 3D Movie Manager was introduced. Be aware that your design might contain 3D PCB movie that cannot be read in previous versions. </td>
-            </tr>
-            <tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
-                <td class="column1">Release 10 update 1</td>
-                <td class="column2"><b>CAUTION</b> - New Clearance Rule subscopes targeting differential pairs  were introduced. Be aware that your design might contain Clearance Rules using those subscopes that cannot be read in previous versions. </td>
-            </tr>
-            <tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
-                <td class="column1">Release 10 update 15</td>
-                <td class="column2"><b>CAUTION</b> - Support of Solder Mask and Paste Mask expansions for Tracks, Arcs, Fills and Regions was introduced. Be aware that your design might contain Solder Mask and Paste Mask expansions for these types of primitives that cannot be read in the version of Altium Designer you are currently using. </td>
-            </tr>
-            <tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
-                <td class="column1">Altium Designer update 19</td>
-                <td class="column2"><b>CAUTION</b> - Air Gap Width attribute was introduced to Polygon Connect Style Rule. Be aware that your design might contain Polygon Connect Style Rules with new Air Gap Width attribute cannot be read in the version of Altium Designer you are currently using. </td>
+                <td class="column1">Release 12</td>
+                <td class="column2"><b>CAUTION</b> - Air Gap Width previously controlled by Clearance rule is now controlled by Polygon Connect Style rule's newly introduced Air Gap Width (set to default value). Suggest reviewing each Polygon Connect Style rule's Air Gap Width attribute for correctness.</td>
             </tr>
             <tr class="onmouseout_even" onmouseover="className = 'onmouseover_even'" onmouseout="className = 'onmouseout_even'">
                 <td class="column1">Release 13</td>
-                <td class="column2"><b>CAUTION</b> - Silk To Solder Mask Clearance Rules are converted to Silkscreen Over Component Pads Rules.</td>
+                <td class="column2"><b>CAUTION</b> - Silkscreen Over Component Pads Rules are converted to Silk To Solder Mask Clearance Rules. Suggest examining rule scopes for accuracy.</td>
             </tr>
         </table>
         <br><hr>
-        <p>This file was generated by <b>a later</b> version of the software</p>
+        <p>This file was generated by <b>an earlier</b> version of the software</p>
     </body>
 </html>
